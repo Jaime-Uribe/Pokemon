@@ -18,13 +18,13 @@ class PokemonDetailPreseterTest: XCTestCase {
     private var pokemonDetailInteractorMock: PokemonListBLBehavior!
     private var pokemonDetailInteractorFailedMock: PokemonListBLBehavior!
     private var observableInteractor: ObservableInteractor<DescriptionPokemonResponse, Int>?
-    private var viewTestable: ViewPresenterMock!
+    private var viewTestable: ViewSpy!
     private var routerTesteble: PresenterToRouterDetailPokemonType?
     private var sut: ViewToPresenterDetailPokemonType!
     
     override func setUp() {
         super.setUp()
-        viewTestable = ViewPresenterMock()
+        viewTestable = ViewSpy()
         pokemonDetailInteractorMock = PokemonMock()
         pokemonDetailInteractorFailedMock = PokemonWhitErrorMock()
         

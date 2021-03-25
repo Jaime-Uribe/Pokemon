@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ViewPresenterMock: PresenterToViewDetailPokemonResponsable {
+class ViewSpy: PresenterToViewDetailPokemonResponsable {
     
     typealias CompletionTask = (() -> Void)
     var removeCallBack: CompletionTask!
