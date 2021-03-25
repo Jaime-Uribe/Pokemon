@@ -47,7 +47,7 @@ class GetPokemonDetailInteractorTest: XCTestCase {
                 print (response.base_happiness as Any)
                 XCTAssert(true)
             }, onError: { _ in
-                XCTAssert(false)
+                XCTAssertFalse(false)
                 //XCTFail()
             }).disposed(by: disposeBag)
     }

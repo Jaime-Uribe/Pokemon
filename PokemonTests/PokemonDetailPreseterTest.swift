@@ -53,35 +53,33 @@ class PokemonDetailPreseterTest: XCTestCase {
             expectation.fulfill()
         }
         sut.fetchPokemon(idPokemon: idPokemon)
-        wait(for: [expectation], timeout: 1.0)
+        wait(for: [expectation], timeout: 5.0)
         XCTAssertTrue(!viewTestable.detailTest.isEmpty)
     }
     
     func testPokemonCloseViewDetail(){
-        
         observableInteractor = GetPokemonDetailInteractor(pokemonBL: pokemonDetailInteractorMock)
         sut = PokemonDetailPresenter(getDetailPokemonInteractor: observableInteractor!)
-        sut.router = PokemonDetailRouter()
-        sut.view = viewTestable
+        sut.router = PokemonDetailRouterMock()
+        let a = PokemonDetailViewController()
         
-        sut.fetchPokemon(idPokemon: idPokemon)
-        wait(for: [expectation], timeout: 1.0)
-        XCTAssertTrue(!viewTestable.detailTest.isEmpty)
+        sut.closeViewDetail(view: a)
+        XCTAssertTrue(PokemonDetailRouterMock.closeWindow)
         
     }
     
-//    func testPokemonDetailPresenterFail(){
-//        let expectation = XCTestExpectation(description: "Call pokemon detail presenter failed")
-//        observableInteractor = GetPokemonDetailInteractor(pokemonBL: pokemonDetailInteractorFailedMock)
-//        sut = PokemonDetailPresenter(getDetailPokemonInteractor: observableInteractor!)
-//        sut.view = viewTestable
-//        
-//        viewTestable.removeCallBack = {
-//            expectation.fulfill()
-//        }
-//        sut.fetchPokemon(idPokemon: 1)
-//        wait(for: [expectation], timeout: 1.0)
-//        XCTAssertTrue(viewTestable.detailTestFaliled)
-//    }
+    func testPokemonDetailPresenterFail(){
+        let expectation = XCTestExpectation(description: "Call pokemon detail presenter failed")
+        observableInteractor = GetPokemonDetailInteractor(pokemonBL: pokemonDetailInteractorFailedMock)
+        sut = PokemonDetailPresenter(getDetailPokemonInteractor: observableInteractor!)
+        sut.view = viewTestable
+        
+        viewTestable.removeCallBack = {
+            expectation.fulfill()
+        }
+        sut.fetchPokemon(idPokemon: 1)
+        wait(for: [expectation], timeout: 1.0)
+        XCTAssertTrue(viewTestable.detailTestFaliled)
+    }
 
 }
