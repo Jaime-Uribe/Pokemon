@@ -23,5 +23,5 @@ check_install_cocoapods:
     endif
 
 setup_project:
-	@cd EvercheckWallet && bundle install
-	@cd EvercheckWallet && pod install
+	@cd Pokemon && bundle install
+	@cd Pokemon && pod install
