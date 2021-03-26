@@ -1,5 +1,12 @@
 pipeline {
   agent any
+  stages {
+    stage('Cancel previous build') {
+      steps {
+        milestone label: '', ordinal:  Integer.parseInt(env.BUILD_ID) - 1
+        milestone label: '', ordinal:  Integer.parseInt(env.BUILD_ID)
+      }
+    }
     stage('Cocoapods') {
       steps {
         retry(count: 2) {
@@ -13,7 +20,7 @@ pipeline {
       steps {
         retry(count: 2) {
           dir(path: 'Pokemon') {
-            sh 'bundle exec com.jaime.uribe.co.PokemonTest'
+            sh 'bundle exec fastlane start_tests'
           }
         }
       }
