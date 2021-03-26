@@ -17,8 +17,8 @@ class PokemonLikePresenterTest: XCTestCase {
     private var interactorTest: InputInteractorSavePokemonType?
     private var presenter: OuputInteractorSavePokemonType?
     private var sut: PokemonLikePresenter?
-    private let viewLikePresenterTesteable = ViewLikePresenterMock()
-    private var coreDataRepositoryTesteable = CoreDataRepositoryMock()
+    private let viewLikePresenterTesteable = ViewLikePresenterStub()
+    private var coreDataRepositoryTesteable = CoreDataRepositoryStub()
     private var repositoryTesteable: FavoritePokemonRepository!
     
     override  func setUp() {

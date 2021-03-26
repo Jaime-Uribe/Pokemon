@@ -16,12 +16,12 @@ class PokemonLikeInteractorTest: XCTestCase {
     
     private let disposBag = DisposeBag()
     private var repositoryTesteable: FavoritePokemonRepository?
-    private var presenterMock = LikePresenterMock()
+    private var presenterMock = LikePresenterStub()
     private var sut: LikePokemonsInteractor!
     
     override func setUp() {
         super.setUp()
-        repositoryTesteable = PokemonRepository(saveLocalCoreData: CoreDataRepositoryMock())
+        repositoryTesteable = PokemonRepository(saveLocalCoreData: CoreDataRepositoryStub())
         sut = LikePokemonsInteractor(pokemonSaveRepository: repositoryTesteable!)
         sut.presenter =  presenterMock
     }

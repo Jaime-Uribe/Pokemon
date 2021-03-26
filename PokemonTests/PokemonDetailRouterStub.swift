@@ -7,7 +7,7 @@
 
 import Foundation
 
-class PokemonDetailRouterMock: PresenterToRouterDetailPokemonType {
+class PokemonDetailRouterStub: PresenterToRouterDetailPokemonType {
     
     static var closeWindow = false
     
@@ -16,7 +16,7 @@ class PokemonDetailRouterMock: PresenterToRouterDetailPokemonType {
     }
     
     func closeView(view: PokemonDetailViewController) {
-        PokemonDetailRouterMock.closeWindow = true
+        PokemonDetailRouterStub.closeWindow = true
     }
     
     
