@@ -1,12 +1,5 @@
 pipeline {
   agent any
-  stages {
-    stage('Cancel previous build') {
-      steps {
-        milestone label: '', ordinal:  Integer.parseInt(env.BUILD_ID) - 1
-        milestone label: '', ordinal:  Integer.parseInt(env.BUILD_ID)
-      }
-    }
     stage('Cocoapods') {
       steps {
         retry(count: 2) {
@@ -24,11 +17,6 @@ pipeline {
           }
         }
       }
-    }
-    stage("Run Danger") {
-        steps {
-          sh 'danger-swift ci'
-        }
     }
     stage('Clean workplace') {
       steps {
