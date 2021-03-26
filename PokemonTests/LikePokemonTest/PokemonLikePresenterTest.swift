@@ -38,7 +38,7 @@ class PokemonLikePresenterTest: XCTestCase {
     func testLikePokemonPresenterFailed(){
         sut!.savePokemon(pokemon: Fakes.pokemonWithError)
         sut!.view = viewLikePresenterTesteable
-        XCTAssert(!coreDataRepositoryTesteable.coreDateSucess)
+        XCTAssertFalse(coreDataRepositoryTesteable.coreDateSucess)
     }
 
 

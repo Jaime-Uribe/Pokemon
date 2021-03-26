@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class PokemonDetailRouterStub: PresenterToRouterDetailPokemonType {
     
@@ -15,7 +16,7 @@ class PokemonDetailRouterStub: PresenterToRouterDetailPokemonType {
         closeWindow = false
     }
     
-    func closeView(view: PokemonDetailViewController) {
+    func closeView(view: UIViewController) {
         PokemonDetailRouterStub.closeWindow = true
     }
     

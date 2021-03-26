@@ -13,7 +13,7 @@ pipeline {
       steps {
         retry(count: 2) {
           dir(path: 'Pokemon') {
-            sh 'bundle exec fastlane start_tests'
+            sh 'bundle exec com.jaime.uribe.co.PokemonTest'
           }
         }
       }
