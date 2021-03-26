@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol ViewToPresenterDetailPokemonType: AnyObject {
     var view: PresenterToViewDetailPokemonResponsable? {get set}
@@ -25,5 +26,5 @@ protocol PresenterToViewDetailPokemonResponsable: AnyObject {
 
 protocol PresenterToRouterDetailPokemonType: AnyObject {
     static func createDetailPokemonView(detailReference: PokemonDetailViewController)
-    func closeView(view: PokemonDetailViewController)
+    func closeView(view: UIViewController)
 }

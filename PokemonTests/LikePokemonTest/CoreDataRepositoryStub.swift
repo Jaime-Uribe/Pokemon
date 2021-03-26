@@ -10,11 +10,12 @@ import RxSwift
 
 class CoreDataRepositoryStub: FavoriteDataSource  {
     
-    var coreDateSucess: Bool = false
+    var coreDateSucess: Bool!
     
     func savePokemon(pokemon: Pokemon) -> Observable<Bool>{
         guard pokemon.id != nil else {
-            return Observable.just(false)
+            coreDateSucess = false
+            return Observable.error(Fakes.createError())
         }
         
         coreDateSucess = true

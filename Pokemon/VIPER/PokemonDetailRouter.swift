@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class PokemonDetailRouter: PresenterToRouterDetailPokemonType {
     
@@ -18,7 +19,7 @@ class PokemonDetailRouter: PresenterToRouterDetailPokemonType {
         detailReference.detailPresenter.router = PokemonDetailRouter()
     }
     
-    func closeView(view: PokemonDetailViewController) {
+    func closeView(view: UIViewController) {
         view.navigationController?.popToRootViewController(animated: true)
         view.dismiss(animated: true)
     }
