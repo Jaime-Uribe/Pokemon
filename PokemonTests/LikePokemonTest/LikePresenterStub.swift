@@ -7,7 +7,7 @@
 
 import Foundation
 
-class LikePresenterMock: OuputInteractorSavePokemonType {
+class LikePresenterStub: OuputInteractorSavePokemonType {
     var saveSucess: Bool = false
     var saveFailed: Bool = false
     

@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ViewLikePresenterMock: OutputPresenterPokemonSavable{
+class ViewLikePresenterStub: OutputPresenterPokemonSavable{
     
     var responseSavePokemonSucess: Bool = false
     

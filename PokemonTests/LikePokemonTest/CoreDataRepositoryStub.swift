@@ -8,7 +8,7 @@
 import Foundation
 import RxSwift
 
-class CoreDataRepositoryMock: FavoriteDataSource  {
+class CoreDataRepositoryStub: FavoriteDataSource  {
     
     var coreDateSucess: Bool = false
     

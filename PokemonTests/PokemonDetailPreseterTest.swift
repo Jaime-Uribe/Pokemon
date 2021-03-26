@@ -53,18 +53,18 @@ class PokemonDetailPreseterTest: XCTestCase {
             expectation.fulfill()
         }
         sut.fetchPokemon(idPokemon: idPokemon)
-        wait(for: [expectation], timeout: 5.0)
+        wait(for: [expectation], timeout: 1.0)
         XCTAssertTrue(!viewTestable.detailTest.isEmpty)
     }
     
     func testPokemonCloseViewDetail(){
         observableInteractor = GetPokemonDetailInteractor(pokemonBL: pokemonDetailInteractorMock)
         sut = PokemonDetailPresenter(getDetailPokemonInteractor: observableInteractor!)
-        sut.router = PokemonDetailRouterMock()
+        sut.router = PokemonDetailRouterStub()
         let a = PokemonDetailViewController()
         
         sut.closeViewDetail(view: a)
-        XCTAssertTrue(PokemonDetailRouterMock.closeWindow)
+        XCTAssertTrue(PokemonDetailRouterStub.closeWindow)
         
     }
     
