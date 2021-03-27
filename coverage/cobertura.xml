@@ -1,0 +1,2433 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.1754385964912281" branch-rate="0.2043010752688172" lines-covered="150" lines-valid="855" branches-covered="76" branches-valid="372" complexity="0.0" timestamp="1616888356" version="Slather 2.7.0">
+  <sources>
+    <source>/Users/jaimeuribe/Documents/IOS/Pokemon</source>
+  </sources>
+  <packages>
+    <package name="Build.Build.Intermediates.noindex.Pokemon.build.Debug-iphonesimulator.Pokemon.build.DerivedSources.CoreDataGenerated.Pokemon" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="PokemonEntity+CoreDataProperties" filename="Build/Build/Intermediates.noindex/Pokemon.build/Debug-iphonesimulator/Pokemon.build/DerivedSources/CoreDataGenerated/Pokemon/PokemonEntity+CoreDataProperties.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Pokemon" line-rate="0.4090909090909091" branch-rate="0.4545454545454545" complexity="0.0">
+      <classes>
+        <class name="AppDelegate" filename="Pokemon/AppDelegate.swift" line-rate="0.2857142857142857" branch-rate="0.3333333333333333" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="17" branch="false" hits="1"/>
+            <line number="18" branch="false" hits="1"/>
+            <line number="19" branch="false" hits="1"/>
+            <line number="23" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="29" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="SceneDelegate" filename="Pokemon/SceneDelegate.swift" line-rate="0.4666666666666667" branch-rate="0.5000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="15" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="16" branch="false" hits="1"/>
+            <line number="17" branch="false" hits="1"/>
+            <line number="18" branch="false" hits="1"/>
+            <line number="19" branch="true" hits="1" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%"/>
+              </conditions>
+            </line>
+            <line number="20" branch="false" hits="1"/>
+            <line number="22" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="29" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="30" branch="false" hits="1"/>
+            <line number="31" branch="false" hits="1"/>
+            <line number="32" branch="false" hits="1"/>
+            <line number="34" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="39" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="40" branch="false" hits="1"/>
+            <line number="41" branch="false" hits="1"/>
+            <line number="42" branch="false" hits="1"/>
+            <line number="44" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="0"/>
+            <line number="47" branch="false" hits="0"/>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Pokemon.MVVM.Helpers" line-rate="0.0909090909090909" branch-rate="0.1093750000000000" complexity="0.0">
+      <classes>
+        <class name="BaseViewController" filename="Pokemon/MVVM/Helpers/BaseViewController.swift" line-rate="0.0454545454545455" branch-rate="0.1111111111111111" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="14" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="16" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="17" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="24" branch="false" hits="0"/>
+            <line number="26" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="30" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="31" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="32" branch="false" hits="0"/>
+            <line number="33" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="34" branch="false" hits="0"/>
+            <line number="36" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="CoreDataManager" filename="Pokemon/MVVM/Helpers/CoreDataManager.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="15" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="20" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="21" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="22" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="28" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="ImagesForPokemons" filename="Pokemon/MVVM/Helpers/ImagesForPokemons.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="20" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="26" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="35" branch="false" hits="0"/>
+            <line number="37" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="41" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="42" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="43" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="44" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="45" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="46" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="47" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="48" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="49" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="50" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="51" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="52" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="53" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="54" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="55" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="56" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="57" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="58" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="59" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="60" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="61" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="62" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="63" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="64" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="65" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="66" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="67" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="68" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="69" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="70" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="71" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="72" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="73" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="74" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="75" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="URLsOperationServices" filename="Pokemon/MVVM/Helpers/URLsOperationServices.swift" line-rate="0.8000000000000000" branch-rate="0.7500000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="14" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="15" branch="false" hits="1"/>
+            <line number="16" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="17" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="18" branch="true" hits="1" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="19" branch="true" hits="0" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="20" branch="true" hits="1" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="21" branch="true" hits="0" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="22" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="23" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Pokemon.MVVM.Model.BussinesLogic" line-rate="0.3500000000000000" branch-rate="0.3000000000000000" complexity="0.0">
+      <classes>
+        <class name="PokemonListBL" filename="Pokemon/MVVM/Model/BussinesLogic/PokemonListBL.swift" line-rate="0.3500000000000000" branch-rate="0.3000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="15" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="16" branch="false" hits="1"/>
+            <line number="17" branch="false" hits="1"/>
+            <line number="19" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="20" branch="false" hits="1"/>
+            <line number="21" branch="true" hits="1" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="true" hits="0" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="24" branch="false" hits="1"/>
+            <line number="26" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="31" branch="false" hits="0"/>
+            <line number="33" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="34" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="37" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Pokemon.MVVM.Model.Repositories" line-rate="0.6862745098039216" branch-rate="0.6000000000000000" complexity="0.0">
+      <classes>
+        <class name="PokemonApi" filename="Pokemon/MVVM/Model/Repositories/PokemonApi.swift" line-rate="0.6862745098039216" branch-rate="0.6000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="19" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="20" branch="false" hits="1"/>
+            <line number="21" branch="false" hits="1"/>
+            <line number="23" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="24" branch="false" hits="1"/>
+            <line number="25" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="26" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="27" branch="true" hits="1" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="28" branch="true" hits="0" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="29" branch="true" hits="1" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="30" branch="true" hits="0" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="31" branch="false" hits="1"/>
+            <line number="32" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="33" branch="false" hits="1"/>
+            <line number="35" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="36" branch="false" hits="1"/>
+            <line number="37" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="38" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="39" branch="true" hits="1" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="40" branch="true" hits="0" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="41" branch="true" hits="1" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="42" branch="true" hits="0" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="43" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="44" branch="false" hits="1"/>
+            <line number="46" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="47" branch="false" hits="0"/>
+            <line number="48" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="49" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="50" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="51" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="52" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="53" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="54" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="55" branch="false" hits="0"/>
+            <line number="57" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="58" branch="false" hits="1"/>
+            <line number="59" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="60" branch="false" hits="1"/>
+            <line number="61" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="62" branch="true" hits="1" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="63" branch="true" hits="0" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="64" branch="true" hits="1" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="65" branch="true" hits="0" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="66" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="67" branch="false" hits="1"/>
+            <line number="69" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="70" branch="false" hits="1"/>
+            <line number="71" branch="false" hits="1"/>
+            <line number="73" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="74" branch="false" hits="1"/>
+            <line number="75" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Pokemon.MVVM.Model.Repositories.Production" line-rate="0.0588235294117647" branch-rate="0.0769230769230769" complexity="0.0">
+      <classes>
+        <class name="CoreDataServices" filename="Pokemon/MVVM/Model/Repositories/Production/CoreDataServices.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="13" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="19" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="28" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="41" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="42" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="48" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="49" branch="false" hits="0"/>
+            <line number="50" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="51" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="54" branch="false" hits="0"/>
+            <line number="55" branch="false" hits="0"/>
+            <line number="56" branch="false" hits="0"/>
+            <line number="57" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="58" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="59" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="60" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="PokemonApiRepository" filename="Pokemon/MVVM/Model/Repositories/Production/PokemonApiRepository.swift" line-rate="0.1162790697674419" branch-rate="0.1363636363636364" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="15" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="17" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="18" branch="false" hits="1"/>
+            <line number="19" branch="true" hits="1" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="29" branch="true" hits="0" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="30" branch="false" hits="1"/>
+            <line number="32" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="44" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="45" branch="false" hits="0"/>
+            <line number="47" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="50" branch="false" hits="0"/>
+            <line number="51" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="false" hits="0"/>
+            <line number="54" branch="false" hits="0"/>
+            <line number="55" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="56" branch="false" hits="0"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="59" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="60" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Pokemon.MVVM.ViewControllers.Cells" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="PokemonTableViewCell" filename="Pokemon/MVVM/ViewControllers/Cells/PokemonTableViewCell.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="20" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="25" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="30" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="39" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Pokemon.MVVM.ViewControllers" line-rate="0.2484076433121019" branch-rate="0.2318840579710145" complexity="0.0">
+      <classes>
+        <class name="LikeViewController" filename="Pokemon/MVVM/ViewControllers/LikeViewController.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="22" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="27" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="28" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="38" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="39" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="45" branch="false" hits="0"/>
+            <line number="49" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="50" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="51" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="55" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="56" branch="false" hits="0"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="61" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="62" branch="false" hits="0"/>
+            <line number="63" branch="false" hits="0"/>
+            <line number="66" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="67" branch="false" hits="0"/>
+            <line number="68" branch="false" hits="0"/>
+            <line number="69" branch="false" hits="0"/>
+            <line number="70" branch="false" hits="0"/>
+            <line number="73" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="74" branch="false" hits="0"/>
+            <line number="75" branch="false" hits="0"/>
+            <line number="81" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="82" branch="false" hits="0"/>
+            <line number="83" branch="false" hits="0"/>
+            <line number="85" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="86" branch="false" hits="0"/>
+            <line number="87" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="ViewController" filename="Pokemon/MVVM/ViewControllers/ViewController.swift" line-rate="0.3545454545454546" branch-rate="0.3265306122448979" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="25" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="31" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="33" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="34" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="35" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="37" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="39" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="40" branch="false" hits="1"/>
+            <line number="41" branch="false" hits="1"/>
+            <line number="42" branch="false" hits="1"/>
+            <line number="44" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="45" branch="false" hits="1"/>
+            <line number="46" branch="false" hits="1"/>
+            <line number="47" branch="false" hits="1"/>
+            <line number="48" branch="false" hits="1"/>
+            <line number="49" branch="false" hits="1"/>
+            <line number="51" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="52" branch="false" hits="1"/>
+            <line number="53" branch="false" hits="1"/>
+            <line number="54" branch="false" hits="1"/>
+            <line number="55" branch="false" hits="1"/>
+            <line number="57" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="58" branch="false" hits="1"/>
+            <line number="59" branch="false" hits="1"/>
+            <line number="60" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="61" branch="true" hits="1" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="62" branch="false" hits="0"/>
+            <line number="63" branch="false" hits="0"/>
+            <line number="64" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="65" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="66" branch="false" hits="1"/>
+            <line number="67" branch="false" hits="1"/>
+            <line number="68" branch="false" hits="1"/>
+            <line number="69" branch="true" hits="1" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="70" branch="false" hits="0"/>
+            <line number="71" branch="false" hits="0"/>
+            <line number="72" branch="true" hits="0" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="73" branch="false" hits="1"/>
+            <line number="74" branch="false" hits="1"/>
+            <line number="75" branch="false" hits="1"/>
+            <line number="78" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="79" branch="true" hits="0" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="80" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="81" branch="false" hits="0"/>
+            <line number="82" branch="false" hits="0"/>
+            <line number="83" branch="false" hits="0"/>
+            <line number="84" branch="false" hits="0"/>
+            <line number="85" branch="false" hits="0"/>
+            <line number="86" branch="false" hits="0"/>
+            <line number="87" branch="false" hits="0"/>
+            <line number="88" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="89" branch="false" hits="0"/>
+            <line number="90" branch="false" hits="0"/>
+            <line number="91" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="92" branch="false" hits="0"/>
+            <line number="93" branch="false" hits="0"/>
+            <line number="94" branch="false" hits="0"/>
+            <line number="95" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="96" branch="false" hits="0"/>
+            <line number="97" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="98" branch="false" hits="0"/>
+            <line number="99" branch="false" hits="0"/>
+            <line number="107" branch="true" hits="2" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="108" branch="true" hits="2" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="109" branch="false" hits="0"/>
+            <line number="110" branch="true" hits="2" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="111" branch="true" hits="2" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="112" branch="false" hits="2"/>
+            <line number="114" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="115" branch="false" hits="0"/>
+            <line number="116" branch="false" hits="0"/>
+            <line number="117" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="118" branch="false" hits="0"/>
+            <line number="119" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="120" branch="false" hits="0"/>
+            <line number="121" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="122" branch="false" hits="0"/>
+            <line number="123" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="124" branch="false" hits="0"/>
+            <line number="125" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="126" branch="false" hits="0"/>
+            <line number="127" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="128" branch="false" hits="0"/>
+            <line number="135" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="136" branch="false" hits="0"/>
+            <line number="137" branch="false" hits="0"/>
+            <line number="139" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="140" branch="false" hits="0"/>
+            <line number="141" branch="false" hits="0"/>
+            <line number="142" branch="false" hits="0"/>
+            <line number="143" branch="false" hits="0"/>
+            <line number="144" branch="false" hits="0"/>
+            <line number="146" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="147" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="148" branch="false" hits="0"/>
+            <line number="149" branch="false" hits="0"/>
+            <line number="150" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="151" branch="false" hits="0"/>
+            <line number="152" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="153" branch="false" hits="0"/>
+            <line number="154" branch="false" hits="0"/>
+            <line number="155" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="156" branch="false" hits="0"/>
+            <line number="163" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="164" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="165" branch="false" hits="0"/>
+            <line number="166" branch="false" hits="0"/>
+            <line number="167" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Pokemon.MVVM.ViewModels" line-rate="0.2055555555555555" branch-rate="0.2500000000000000" complexity="0.0">
+      <classes>
+        <class name="PokemonDetailViewModel" filename="Pokemon/MVVM/ViewModels/PokemonDetailViewModel.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="25" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="29" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="30" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="33" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="40" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="47" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="50" branch="false" hits="0"/>
+            <line number="51" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="54" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="55" branch="false" hits="0"/>
+            <line number="58" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="59" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="false" hits="0"/>
+            <line number="62" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="63" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="64" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="65" branch="false" hits="0"/>
+            <line number="66" branch="false" hits="0"/>
+            <line number="67" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="68" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="69" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="70" branch="false" hits="0"/>
+            <line number="71" branch="false" hits="0"/>
+            <line number="72" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="73" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="74" branch="false" hits="0"/>
+            <line number="75" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="76" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="PokemonListViewModel" filename="Pokemon/MVVM/ViewModels/PokemonListViewModel.swift" line-rate="0.2720588235294117" branch-rate="0.3442622950819672" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="19" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="20" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="29" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="30" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="35" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="36" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="39" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="40" branch="false" hits="1"/>
+            <line number="41" branch="false" hits="1"/>
+            <line number="42" branch="false" hits="1"/>
+            <line number="43" branch="false" hits="1"/>
+            <line number="44" branch="false" hits="1"/>
+            <line number="45" branch="false" hits="1"/>
+            <line number="47" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="false" hits="0"/>
+            <line number="50" branch="false" hits="0"/>
+            <line number="51" branch="false" hits="0"/>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="false" hits="0"/>
+            <line number="55" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="56" branch="false" hits="1"/>
+            <line number="57" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="58" branch="false" hits="1"/>
+            <line number="59" branch="true" hits="1" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%"/>
+              </conditions>
+            </line>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="62" branch="false" hits="0"/>
+            <line number="63" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="64" branch="false" hits="0"/>
+            <line number="65" branch="false" hits="0"/>
+            <line number="66" branch="false" hits="0"/>
+            <line number="67" branch="true" hits="0" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="68" branch="false" hits="1"/>
+            <line number="69" branch="false" hits="1"/>
+            <line number="70" branch="true" hits="2" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="71" branch="true" hits="2" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="72" branch="false" hits="1"/>
+            <line number="73" branch="false" hits="1"/>
+            <line number="74" branch="true" hits="2" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="75" branch="true" hits="2" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="76" branch="false" hits="1"/>
+            <line number="77" branch="false" hits="1"/>
+            <line number="80" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="81" branch="false" hits="1"/>
+            <line number="82" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="83" branch="false" hits="1"/>
+            <line number="84" branch="true" hits="1" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="85" branch="false" hits="0"/>
+            <line number="86" branch="false" hits="0"/>
+            <line number="87" branch="false" hits="0"/>
+            <line number="88" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="89" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="90" branch="false" hits="0"/>
+            <line number="91" branch="false" hits="0"/>
+            <line number="92" branch="false" hits="0"/>
+            <line number="93" branch="true" hits="0" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%"/>
+              </conditions>
+            </line>
+            <line number="94" branch="false" hits="0"/>
+            <line number="95" branch="false" hits="0"/>
+            <line number="96" branch="true" hits="0" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="97" branch="true" hits="1" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="98" branch="false" hits="0"/>
+            <line number="99" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="100" branch="false" hits="1"/>
+            <line number="102" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="103" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="104" branch="false" hits="0"/>
+            <line number="105" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="106" branch="false" hits="0"/>
+            <line number="107" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="108" branch="false" hits="0"/>
+            <line number="109" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="110" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="111" branch="false" hits="0"/>
+            <line number="112" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="113" branch="false" hits="0"/>
+            <line number="116" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="117" branch="false" hits="0"/>
+            <line number="118" branch="false" hits="0"/>
+            <line number="119" branch="false" hits="0"/>
+            <line number="120" branch="false" hits="0"/>
+            <line number="121" branch="false" hits="0"/>
+            <line number="122" branch="false" hits="0"/>
+            <line number="123" branch="false" hits="0"/>
+            <line number="124" branch="false" hits="0"/>
+            <line number="125" branch="false" hits="0"/>
+            <line number="126" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="127" branch="false" hits="0"/>
+            <line number="128" branch="false" hits="0"/>
+            <line number="129" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="130" branch="false" hits="0"/>
+            <line number="131" branch="false" hits="0"/>
+            <line number="132" branch="false" hits="0"/>
+            <line number="133" branch="false" hits="0"/>
+            <line number="134" branch="false" hits="0"/>
+            <line number="135" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="136" branch="false" hits="0"/>
+            <line number="137" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="138" branch="false" hits="0"/>
+            <line number="140" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="141" branch="false" hits="0"/>
+            <line number="142" branch="false" hits="0"/>
+            <line number="143" branch="false" hits="0"/>
+            <line number="144" branch="false" hits="0"/>
+            <line number="145" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="146" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="147" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="148" branch="false" hits="0"/>
+            <line number="149" branch="false" hits="0"/>
+            <line number="150" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="151" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="152" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="153" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="154" branch="false" hits="0"/>
+            <line number="155" branch="false" hits="0"/>
+            <line number="156" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="157" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="158" branch="false" hits="0"/>
+            <line number="159" branch="false" hits="0"/>
+            <line number="160" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="161" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="162" branch="false" hits="0"/>
+            <line number="163" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="164" branch="false" hits="0"/>
+            <line number="167" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="168" branch="false" hits="0"/>
+            <line number="169" branch="false" hits="0"/>
+            <line number="170" branch="false" hits="0"/>
+            <line number="171" branch="false" hits="0"/>
+            <line number="172" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="173" branch="false" hits="0"/>
+            <line number="174" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="175" branch="false" hits="0"/>
+            <line number="176" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="177" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Pokemon.VIPER" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="DataRepository" filename="Pokemon/VIPER/DataRepository.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="20" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="32" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="40" branch="false" hits="0"/>
+            <line number="45" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="46" branch="false" hits="0"/>
+            <line number="47" branch="false" hits="0"/>
+            <line number="54" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="55" branch="false" hits="0"/>
+            <line number="56" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="GetPokemonDetailInteractor" filename="Pokemon/VIPER/GetPokemonDetailInteractor.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="24" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="31" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="32" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="44" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="0"/>
+            <line number="48" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="49" branch="false" hits="0"/>
+            <line number="50" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="51" branch="false" hits="0"/>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="54" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="LikePokemonsInteractor" filename="Pokemon/VIPER/LikePokemonsInteractor.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="14" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="18" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="22" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="PokemonDetailPresenter" filename="Pokemon/VIPER/PokemonDetailPresenter.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="19" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="25" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="36" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="40" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="43" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="47" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="48" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="PokemonDetailRouter" filename="Pokemon/VIPER/PokemonDetailRouter.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="13" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="22" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="PokemonDetailViewController" filename="Pokemon/VIPER/PokemonDetailViewController.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="27" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="35" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="40" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="47" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="false" hits="0"/>
+            <line number="50" branch="false" hits="0"/>
+            <line number="51" branch="false" hits="0"/>
+            <line number="53" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="54" branch="false" hits="0"/>
+            <line number="55" branch="false" hits="0"/>
+            <line number="56" branch="false" hits="0"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="62" branch="false" hits="0"/>
+            <line number="63" branch="false" hits="0"/>
+            <line number="64" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="65" branch="false" hits="0"/>
+            <line number="66" branch="false" hits="0"/>
+            <line number="67" branch="false" hits="0"/>
+            <line number="69" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="70" branch="false" hits="0"/>
+            <line number="71" branch="false" hits="0"/>
+            <line number="72" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="73" branch="false" hits="0"/>
+            <line number="74" branch="false" hits="0"/>
+            <line number="75" branch="false" hits="0"/>
+            <line number="76" branch="false" hits="0"/>
+            <line number="77" branch="false" hits="0"/>
+            <line number="78" branch="false" hits="0"/>
+            <line number="79" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="80" branch="false" hits="0"/>
+            <line number="81" branch="false" hits="0"/>
+            <line number="82" branch="false" hits="0"/>
+            <line number="83" branch="false" hits="0"/>
+            <line number="84" branch="false" hits="0"/>
+            <line number="85" branch="false" hits="0"/>
+            <line number="86" branch="false" hits="0"/>
+            <line number="89" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="90" branch="false" hits="0"/>
+            <line number="91" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="92" branch="false" hits="0"/>
+            <line number="93" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="94" branch="false" hits="0"/>
+            <line number="95" branch="false" hits="0"/>
+            <line number="98" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="99" branch="false" hits="0"/>
+            <line number="100" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="101" branch="false" hits="0"/>
+            <line number="102" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="103" branch="false" hits="0"/>
+            <line number="104" branch="false" hits="0"/>
+            <line number="109" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="110" branch="false" hits="0"/>
+            <line number="111" branch="false" hits="0"/>
+            <line number="113" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="114" branch="false" hits="0"/>
+            <line number="115" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="PokemonLikePresenter" filename="Pokemon/VIPER/PokemonLikePresenter.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="23" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="27" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="PokemonLikeRouter" filename="Pokemon/VIPER/PokemonLikeRouter.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="13" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="PokemonRepository" filename="Pokemon/VIPER/PokemonRepository.swift" line-rate="0.0000000000000000" branch-rate="0.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="22" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="26" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="27" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="30" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

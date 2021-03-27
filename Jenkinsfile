@@ -1,4 +1,12 @@
 node {
+stage('Cocoapods') {
+      steps {
+        retry(count: 2) {
+          dir(path: 'Pokemon') {
+            sh 'pod install'
+          }
+        }
+      }
 
     stage('Checkout/Build/Test') {
 
