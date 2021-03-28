@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
-options: "20a1e8723f3c11d03c8c9d69e3f3572f"
-build_time: [1616899369, 902299000]
-inputs:
-  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/KeychainSwift/Sources/KeychainSwift.swift": [1616855375, 284889255]
-  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/KeychainSwift/Sources/KeychainSwiftAccessOptions.swift": [1616855375, 289094220]
-  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/KeychainSwift/Sources/TegKeychainConstants.swift": [1616855375, 285307601]
