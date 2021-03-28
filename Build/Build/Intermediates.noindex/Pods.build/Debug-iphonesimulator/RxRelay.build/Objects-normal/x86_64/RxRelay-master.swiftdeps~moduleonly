@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "9466b65ca0828e57842b4560f1bf2710"
+build_time: [1616899370, 393451000]
+inputs:
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxRelay/RxRelay/BehaviorRelay.swift": [1616855375, 382849811]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxRelay/RxRelay/Observable+Bind.swift": [1616855375, 382292329]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxRelay/RxRelay/PublishRelay.swift": [1616855375, 381995430]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxRelay/RxRelay/Utils.swift": [1616855375, 382573142]

@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "5a9b06898540a43ebeec765139e9703c"
+build_time: [1616899370, 894342000]
+inputs:
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/AnimationConfiguration.swift": [1616855375, 372711348]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/Array+Extensions.swift": [1616855375, 372256880]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/CollectionViewSectionedDataSource.swift": [1616855375, 375960433]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/DataSources.swift": [1616855375, 374261696]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/Deprecated.swift": [1616855375, 375196601]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/FloatingPointType+IdentifiableType.swift": [1616855375, 373150600]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/IntegerType+IdentifiableType.swift": [1616855375, 376656459]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/RxCollectionViewSectionedAnimatedDataSource.swift": [1616855375, 377158362]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/RxCollectionViewSectionedReloadDataSource.swift": [1616855375, 373813957]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/RxPickerViewAdapter.swift": [1616855375, 374915588]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/RxTableViewSectionedAnimatedDataSource.swift": [1616855375, 373527584]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/RxTableViewSectionedReloadDataSource.swift": [1616855375, 377966694]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/String+IdentifiableType.swift": [1616855375, 374549875]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/TableViewSectionedDataSource.swift": [1616855375, 377564778]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/UI+SectionedViewType.swift": [1616855375, 376360184]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/RxDataSources/Sources/RxDataSources/ViewTransition.swift": [1616855375, 375503253]

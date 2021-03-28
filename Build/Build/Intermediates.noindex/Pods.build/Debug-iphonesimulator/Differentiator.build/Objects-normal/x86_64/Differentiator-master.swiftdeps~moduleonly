@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "00956be79ffdcc9d3c10bde731a972cc"
+build_time: [1616899369, 903501000]
+inputs:
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/Differentiator/Sources/Differentiator/AnimatableSectionModel.swift": [1616855375, 255318601]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/Differentiator/Sources/Differentiator/AnimatableSectionModelType+ItemPath.swift": [1616855375, 265509667]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/Differentiator/Sources/Differentiator/AnimatableSectionModelType.swift": [1616855375, 271916392]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/Differentiator/Sources/Differentiator/Changeset.swift": [1616855375, 265830804]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/Differentiator/Sources/Differentiator/Diff.swift": [1616855375, 254691873]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/Differentiator/Sources/Differentiator/IdentifiableType.swift": [1616855375, 253704939]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/Differentiator/Sources/Differentiator/IdentifiableValue.swift": [1616855375, 261160730]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/Differentiator/Sources/Differentiator/ItemPath.swift": [1616855375, 263237810]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/Differentiator/Sources/Differentiator/Optional+Extensions.swift": [1616855375, 263538265]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/Differentiator/Sources/Differentiator/SectionModel.swift": [1616855375, 254195190]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/Differentiator/Sources/Differentiator/SectionModelType.swift": [1616855375, 252376225]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/Differentiator/Sources/Differentiator/Utilities.swift": [1616855375, 252989637]

@@ -1,0 +1,1051 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseViewController"
+provides-nominal:
+- "7Pokemon18BaseViewControllerC"
+provides-member:
+- ["7Pokemon18BaseViewControllerC", ""]
+provides-dynamic-lookup:
+- "dismissKeyboard"
+- "disposeBag"
+- "hideProgressIndicator"
+- "showProgressIndicator"
+- "showProgressWaitIndicator"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BaseViewController"
+- !private "BooleanLiteralType"
+- !private "DispatchQueue"
+- "DisposeBag"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "SVProgressHUD"
+- "SVProgressHUDMaskType"
+- "SVProgressHUDStyle"
+- "String"
+- "UIColor"
+- "UIViewController"
+- !private "WAIT_PLEASE"
+- !private "view"
+depends-member:
+- !private ["7SwiftUI10AnimatableP", "origin"]
+- !private ["7SwiftUI10AnimatableP", "y"]
+- !private ["7Pokemon18BaseViewControllerC", "DispatchQueue"]
+- ["7Pokemon18BaseViewControllerC", "DisposeBag"]
+- !private ["7Pokemon18BaseViewControllerC", "SVProgressHUD"]
+- !private ["7Pokemon18BaseViewControllerC", "SVProgressHUDMaskType"]
+- !private ["7Pokemon18BaseViewControllerC", "SVProgressHUDStyle"]
+- ["7Pokemon18BaseViewControllerC", "String"]
+- !private ["7Pokemon18BaseViewControllerC", "UIColor"]
+- !private ["7Pokemon18BaseViewControllerC", "WAIT_PLEASE"]
+- ["7Pokemon18BaseViewControllerC", ""]
+- ["7Pokemon18BaseViewControllerC", "deinit"]
+- ["7Pokemon18BaseViewControllerC", "dismissKeyboard"]
+- ["7Pokemon18BaseViewControllerC", "disposeBag"]
+- ["7Pokemon18BaseViewControllerC", "hideProgressIndicator"]
+- ["7Pokemon18BaseViewControllerC", "init"]
+- ["7Pokemon18BaseViewControllerC", "showProgressIndicator"]
+- ["7Pokemon18BaseViewControllerC", "showProgressWaitIndicator"]
+- !private ["7Pokemon18BaseViewControllerC", "view"]
+- ["SK", ""]
+- !private ["So15CALayerDelegateP", "dismiss"]
+- !private ["So15CALayerDelegateP", "dismissWithCompletion"]
+- !private ["So15CALayerDelegateP", "dismissWithDelay"]
+- !private ["So15CALayerDelegateP", "endEditing"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "setBackgroundColor"]
+- !private ["So15CALayerDelegateP", "setDefaultMaskType"]
+- !private ["So15CALayerDelegateP", "setDefaultStyle"]
+- !private ["So15CALayerDelegateP", "setForegroundColor"]
+- !private ["So15CALayerDelegateP", "show"]
+- !private ["So15CALayerDelegateP", "showImage"]
+- !private ["So15CALayerDelegateP", "showWithMaskType"]
+- !private ["So15CALayerDelegateP", "showWithStatus"]
+- !private ["So7CGPointV", "y"]
+- !private ["So6CGRectV", "origin"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- ["s7CVarArgP", "DisposeBag"]
+- !private ["s7CVarArgP", "SVProgressHUD"]
+- !private ["s7CVarArgP", "SVProgressHUDMaskType"]
+- !private ["s7CVarArgP", "SVProgressHUDStyle"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "WAIT_PLEASE"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "dismissKeyboard"]
+- !private ["s7CVarArgP", "endEditing"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "hideProgressIndicator"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "setBackgroundColor"]
+- !private ["s7CVarArgP", "setDefaultMaskType"]
+- !private ["s7CVarArgP", "setDefaultStyle"]
+- !private ["s7CVarArgP", "setForegroundColor"]
+- !private ["s7CVarArgP", "show"]
+- !private ["s7CVarArgP", "showProgressIndicator"]
+- !private ["s7CVarArgP", "showProgressWaitIndicator"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "white"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["7SnapKit24ConstraintConstantTargetP", "y"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "dismiss"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "endEditing"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "frame"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "setBackgroundColor"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "setDefaultMaskType"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "setDefaultStyle"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "setForegroundColor"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "show"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "y"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- ["s28CustomDebugStringConvertibleP", "DisposeBag"]
+- !private ["s28CustomDebugStringConvertibleP", "SVProgressHUD"]
+- !private ["s28CustomDebugStringConvertibleP", "SVProgressHUDMaskType"]
+- !private ["s28CustomDebugStringConvertibleP", "SVProgressHUDStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "WAIT_PLEASE"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "dismissKeyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "endEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "hideProgressIndicator"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "setBackgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "setDefaultMaskType"]
+- !private ["s28CustomDebugStringConvertibleP", "setDefaultStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "setForegroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "show"]
+- !private ["s28CustomDebugStringConvertibleP", "showProgressIndicator"]
+- !private ["s28CustomDebugStringConvertibleP", "showProgressWaitIndicator"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s17CustomReflectableP", "endEditing"]
+- !private ["s17CustomReflectableP", "frame"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "y"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", "DisposeBag"]
+- !private ["s23CustomStringConvertibleP", "SVProgressHUD"]
+- !private ["s23CustomStringConvertibleP", "SVProgressHUDMaskType"]
+- !private ["s23CustomStringConvertibleP", "SVProgressHUDStyle"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "WAIT_PLEASE"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "dismissKeyboard"]
+- !private ["s23CustomStringConvertibleP", "endEditing"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "hideProgressIndicator"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "setBackgroundColor"]
+- !private ["s23CustomStringConvertibleP", "setDefaultMaskType"]
+- !private ["s23CustomStringConvertibleP", "setDefaultStyle"]
+- !private ["s23CustomStringConvertibleP", "setForegroundColor"]
+- !private ["s23CustomStringConvertibleP", "show"]
+- !private ["s23CustomStringConvertibleP", "showProgressIndicator"]
+- !private ["s23CustomStringConvertibleP", "showProgressWaitIndicator"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["Se", "endEditing"]
+- !private ["Se", "frame"]
+- !private ["Se", "origin"]
+- !private ["Se", "y"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", ""]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["SE", "endEditing"]
+- !private ["SE", "frame"]
+- !private ["SE", "origin"]
+- !private ["SE", "y"]
+- !private ["SQ", "DispatchQueue"]
+- ["SQ", "DisposeBag"]
+- !private ["SQ", "SVProgressHUD"]
+- !private ["SQ", "SVProgressHUDMaskType"]
+- !private ["SQ", "SVProgressHUDStyle"]
+- !private ["SQ", "UIColor"]
+- !private ["SQ", "WAIT_PLEASE"]
+- ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "black"]
+- !private ["SQ", "dark"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "dismissKeyboard"]
+- !private ["SQ", "endEditing"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "hideProgressIndicator"]
+- !private ["SQ", "main"]
+- !private ["SQ", "origin"]
+- !private ["SQ", "setBackgroundColor"]
+- !private ["SQ", "setDefaultMaskType"]
+- !private ["SQ", "setDefaultStyle"]
+- !private ["SQ", "setForegroundColor"]
+- !private ["SQ", "show"]
+- !private ["SQ", "showProgressIndicator"]
+- !private ["SQ", "showProgressWaitIndicator"]
+- !private ["SQ", "view"]
+- !private ["SQ", "white"]
+- !private ["SQ", "y"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "endEditing"]
+- !private ["s23ExpressibleByNilLiteralP", "frame"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["7SwiftUI7GestureP", "endEditing"]
+- !private ["7SwiftUI7GestureP", "frame"]
+- !private ["SH", "DispatchQueue"]
+- ["SH", "DisposeBag"]
+- !private ["SH", "SVProgressHUD"]
+- !private ["SH", "SVProgressHUDMaskType"]
+- !private ["SH", "SVProgressHUDStyle"]
+- !private ["SH", "UIColor"]
+- !private ["SH", "WAIT_PLEASE"]
+- ["SH", ""]
+- !private ["SH", "async"]
+- !private ["SH", "black"]
+- !private ["SH", "dark"]
+- !private ["SH", "dismiss"]
+- !private ["SH", "dismissKeyboard"]
+- !private ["SH", "endEditing"]
+- !private ["SH", "frame"]
+- !private ["SH", "hideProgressIndicator"]
+- !private ["SH", "main"]
+- !private ["SH", "setBackgroundColor"]
+- !private ["SH", "setDefaultMaskType"]
+- !private ["SH", "setDefaultStyle"]
+- !private ["SH", "setForegroundColor"]
+- !private ["SH", "show"]
+- !private ["SH", "showProgressIndicator"]
+- !private ["SH", "showProgressWaitIndicator"]
+- !private ["SH", "view"]
+- !private ["SH", "white"]
+- !private ["7RxCocoa16KVORepresentableP", "origin"]
+- !private ["7RxCocoa16KVORepresentableP", "y"]
+- !private ["7SnapKit20LayoutConstraintItemP", "dismiss"]
+- !private ["7SnapKit20LayoutConstraintItemP", "endEditing"]
+- !private ["7SnapKit20LayoutConstraintItemP", "frame"]
+- !private ["7SnapKit20LayoutConstraintItemP", "setBackgroundColor"]
+- !private ["7SnapKit20LayoutConstraintItemP", "setDefaultMaskType"]
+- !private ["7SnapKit20LayoutConstraintItemP", "setDefaultStyle"]
+- !private ["7SnapKit20LayoutConstraintItemP", "setForegroundColor"]
+- !private ["7SnapKit20LayoutConstraintItemP", "show"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- ["So8NSCodingP", "DisposeBag"]
+- !private ["So8NSCodingP", "SVProgressHUD"]
+- !private ["So8NSCodingP", "SVProgressHUDMaskType"]
+- !private ["So8NSCodingP", "SVProgressHUDStyle"]
+- ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "WAIT_PLEASE"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "dismiss"]
+- ["So8NSCodingP", "dismissKeyboard"]
+- !private ["So8NSCodingP", "dismissWithCompletion"]
+- !private ["So8NSCodingP", "dismissWithDelay"]
+- ["So8NSCodingP", "disposeBag"]
+- !private ["So8NSCodingP", "endEditing"]
+- !private ["So8NSCodingP", "frame"]
+- ["So8NSCodingP", "hideProgressIndicator"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setBackgroundColor"]
+- !private ["So8NSCodingP", "setDefaultMaskType"]
+- !private ["So8NSCodingP", "setDefaultStyle"]
+- !private ["So8NSCodingP", "setForegroundColor"]
+- !private ["So8NSCodingP", "show"]
+- !private ["So8NSCodingP", "showImage"]
+- ["So8NSCodingP", "showProgressIndicator"]
+- ["So8NSCodingP", "showProgressWaitIndicator"]
+- !private ["So8NSCodingP", "showWithMaskType"]
+- !private ["So8NSCodingP", "showWithStatus"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- ["So26NSExtensionRequestHandlingP", "DisposeBag"]
+- !private ["So26NSExtensionRequestHandlingP", "SVProgressHUD"]
+- !private ["So26NSExtensionRequestHandlingP", "SVProgressHUDMaskType"]
+- !private ["So26NSExtensionRequestHandlingP", "SVProgressHUDStyle"]
+- ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- !private ["So26NSExtensionRequestHandlingP", "WAIT_PLEASE"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "dismissKeyboard"]
+- ["So26NSExtensionRequestHandlingP", "disposeBag"]
+- ["So26NSExtensionRequestHandlingP", "hideProgressIndicator"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "showProgressIndicator"]
+- ["So26NSExtensionRequestHandlingP", "showProgressWaitIndicator"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "DisposeBag"]
+- !private ["So8NSObjectC", "SVProgressHUD"]
+- !private ["So8NSObjectC", "SVProgressHUDMaskType"]
+- !private ["So8NSObjectC", "SVProgressHUDStyle"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "WAIT_PLEASE"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "black"]
+- !private ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "dismissKeyboard"]
+- !private ["So8NSObjectC", "dismissWithCompletion"]
+- !private ["So8NSObjectC", "dismissWithDelay"]
+- ["So8NSObjectC", "disposeBag"]
+- !private ["So8NSObjectC", "endEditing"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "frameForAlignmentRect"]
+- ["So8NSObjectC", "hideProgressIndicator"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setBackgroundColor"]
+- !private ["So8NSObjectC", "setDefaultMaskType"]
+- !private ["So8NSObjectC", "setDefaultStyle"]
+- !private ["So8NSObjectC", "setForegroundColor"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "show"]
+- !private ["So8NSObjectC", "showImage"]
+- ["So8NSObjectC", "showProgressIndicator"]
+- ["So8NSObjectC", "showProgressWaitIndicator"]
+- !private ["So8NSObjectC", "showWithMaskType"]
+- !private ["So8NSObjectC", "showWithStatus"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- ["So8NSObjectP", "DisposeBag"]
+- !private ["So8NSObjectP", "SVProgressHUD"]
+- !private ["So8NSObjectP", "SVProgressHUDMaskType"]
+- !private ["So8NSObjectP", "SVProgressHUDStyle"]
+- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UIColor"]
+- !private ["So8NSObjectP", "WAIT_PLEASE"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "black"]
+- !private ["So8NSObjectP", "dismiss"]
+- ["So8NSObjectP", "dismissKeyboard"]
+- !private ["So8NSObjectP", "dismissWithCompletion"]
+- !private ["So8NSObjectP", "dismissWithDelay"]
+- ["So8NSObjectP", "disposeBag"]
+- !private ["So8NSObjectP", "endEditing"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "frameForAlignmentRect"]
+- ["So8NSObjectP", "hideProgressIndicator"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setBackgroundColor"]
+- !private ["So8NSObjectP", "setDefaultMaskType"]
+- !private ["So8NSObjectP", "setDefaultStyle"]
+- !private ["So8NSObjectP", "setForegroundColor"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "show"]
+- !private ["So8NSObjectP", "showImage"]
+- ["So8NSObjectP", "showProgressIndicator"]
+- ["So8NSObjectP", "showProgressWaitIndicator"]
+- !private ["So8NSObjectP", "showWithMaskType"]
+- !private ["So8NSObjectP", "showWithStatus"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "white"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["Sq", "endEditing"]
+- !private ["Sq", "frame"]
+- !private ["SY", "black"]
+- !private ["SY", "dark"]
+- !private ["7RxSwift18ReactiveCompatibleP", "DispatchQueue"]
+- ["7RxSwift18ReactiveCompatibleP", "DisposeBag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "SVProgressHUD"]
+- !private ["7RxSwift18ReactiveCompatibleP", "SVProgressHUDMaskType"]
+- !private ["7RxSwift18ReactiveCompatibleP", "SVProgressHUDStyle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "WAIT_PLEASE"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "async"]
+- !private ["7RxSwift18ReactiveCompatibleP", "black"]
+- !private ["7RxSwift18ReactiveCompatibleP", "dismiss"]
+- !private ["7RxSwift18ReactiveCompatibleP", "dismissKeyboard"]
+- !private ["7RxSwift18ReactiveCompatibleP", "endEditing"]
+- !private ["7RxSwift18ReactiveCompatibleP", "frame"]
+- !private ["7RxSwift18ReactiveCompatibleP", "hideProgressIndicator"]
+- !private ["7RxSwift18ReactiveCompatibleP", "main"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setBackgroundColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setDefaultMaskType"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setDefaultStyle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setForegroundColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "show"]
+- !private ["7RxSwift18ReactiveCompatibleP", "showProgressIndicator"]
+- !private ["7RxSwift18ReactiveCompatibleP", "showProgressWaitIndicator"]
+- !private ["7RxSwift18ReactiveCompatibleP", "view"]
+- !private ["7RxSwift18ReactiveCompatibleP", "white"]
+- !private ["So13SVProgressHUDC", "dismiss"]
+- !private ["So13SVProgressHUDC", "setBackgroundColor"]
+- !private ["So13SVProgressHUDC", "setDefaultMaskType"]
+- !private ["So13SVProgressHUDC", "setDefaultStyle"]
+- !private ["So13SVProgressHUDC", "setForegroundColor"]
+- !private ["So13SVProgressHUDC", "show"]
+- !private ["So21SVProgressHUDMaskTypeV", "black"]
+- !private ["So18SVProgressHUDStyleV", "dark"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "main"]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "dismiss"]
+- !private ["So29UIAccessibilityIdentificationP", "dismissWithCompletion"]
+- !private ["So29UIAccessibilityIdentificationP", "dismissWithDelay"]
+- !private ["So29UIAccessibilityIdentificationP", "endEditing"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "setBackgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "setDefaultMaskType"]
+- !private ["So29UIAccessibilityIdentificationP", "setDefaultStyle"]
+- !private ["So29UIAccessibilityIdentificationP", "setForegroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "show"]
+- !private ["So29UIAccessibilityIdentificationP", "showImage"]
+- !private ["So29UIAccessibilityIdentificationP", "showWithMaskType"]
+- !private ["So29UIAccessibilityIdentificationP", "showWithStatus"]
+- !private ["So12UIAppearanceP", "dismiss"]
+- !private ["So12UIAppearanceP", "dismissWithCompletion"]
+- !private ["So12UIAppearanceP", "dismissWithDelay"]
+- !private ["So12UIAppearanceP", "endEditing"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "setBackgroundColor"]
+- !private ["So12UIAppearanceP", "setDefaultMaskType"]
+- !private ["So12UIAppearanceP", "setDefaultStyle"]
+- !private ["So12UIAppearanceP", "setForegroundColor"]
+- !private ["So12UIAppearanceP", "show"]
+- !private ["So12UIAppearanceP", "showImage"]
+- !private ["So12UIAppearanceP", "showWithMaskType"]
+- !private ["So12UIAppearanceP", "showWithStatus"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- ["So21UIAppearanceContainerP", "DisposeBag"]
+- !private ["So21UIAppearanceContainerP", "SVProgressHUD"]
+- !private ["So21UIAppearanceContainerP", "SVProgressHUDMaskType"]
+- !private ["So21UIAppearanceContainerP", "SVProgressHUDStyle"]
+- ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "WAIT_PLEASE"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- ["So21UIAppearanceContainerP", "dismissKeyboard"]
+- !private ["So21UIAppearanceContainerP", "dismissWithCompletion"]
+- !private ["So21UIAppearanceContainerP", "dismissWithDelay"]
+- ["So21UIAppearanceContainerP", "disposeBag"]
+- !private ["So21UIAppearanceContainerP", "endEditing"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- ["So21UIAppearanceContainerP", "hideProgressIndicator"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "setBackgroundColor"]
+- !private ["So21UIAppearanceContainerP", "setDefaultMaskType"]
+- !private ["So21UIAppearanceContainerP", "setDefaultStyle"]
+- !private ["So21UIAppearanceContainerP", "setForegroundColor"]
+- !private ["So21UIAppearanceContainerP", "show"]
+- !private ["So21UIAppearanceContainerP", "showImage"]
+- ["So21UIAppearanceContainerP", "showProgressIndicator"]
+- ["So21UIAppearanceContainerP", "showProgressWaitIndicator"]
+- !private ["So21UIAppearanceContainerP", "showWithMaskType"]
+- !private ["So21UIAppearanceContainerP", "showWithStatus"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So7UIColorC", "black"]
+- !private ["So7UIColorC", "white"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- ["So18UIContentContainerP", "DisposeBag"]
+- !private ["So18UIContentContainerP", "SVProgressHUD"]
+- !private ["So18UIContentContainerP", "SVProgressHUDMaskType"]
+- !private ["So18UIContentContainerP", "SVProgressHUDStyle"]
+- ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- !private ["So18UIContentContainerP", "WAIT_PLEASE"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "dismissKeyboard"]
+- ["So18UIContentContainerP", "disposeBag"]
+- ["So18UIContentContainerP", "hideProgressIndicator"]
+- ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "showProgressIndicator"]
+- ["So18UIContentContainerP", "showProgressWaitIndicator"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So17UICoordinateSpaceP", "dismiss"]
+- !private ["So17UICoordinateSpaceP", "dismissWithCompletion"]
+- !private ["So17UICoordinateSpaceP", "dismissWithDelay"]
+- !private ["So17UICoordinateSpaceP", "endEditing"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "setBackgroundColor"]
+- !private ["So17UICoordinateSpaceP", "setDefaultMaskType"]
+- !private ["So17UICoordinateSpaceP", "setDefaultStyle"]
+- !private ["So17UICoordinateSpaceP", "setForegroundColor"]
+- !private ["So17UICoordinateSpaceP", "show"]
+- !private ["So17UICoordinateSpaceP", "showImage"]
+- !private ["So17UICoordinateSpaceP", "showWithMaskType"]
+- !private ["So17UICoordinateSpaceP", "showWithStatus"]
+- !private ["So13UIDynamicItemP", "dismiss"]
+- !private ["So13UIDynamicItemP", "dismissWithCompletion"]
+- !private ["So13UIDynamicItemP", "dismissWithDelay"]
+- !private ["So13UIDynamicItemP", "endEditing"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "setBackgroundColor"]
+- !private ["So13UIDynamicItemP", "setDefaultMaskType"]
+- !private ["So13UIDynamicItemP", "setDefaultStyle"]
+- !private ["So13UIDynamicItemP", "setForegroundColor"]
+- !private ["So13UIDynamicItemP", "show"]
+- !private ["So13UIDynamicItemP", "showImage"]
+- !private ["So13UIDynamicItemP", "showWithMaskType"]
+- !private ["So13UIDynamicItemP", "showWithStatus"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- ["So18UIFocusEnvironmentP", "DisposeBag"]
+- !private ["So18UIFocusEnvironmentP", "SVProgressHUD"]
+- !private ["So18UIFocusEnvironmentP", "SVProgressHUDMaskType"]
+- !private ["So18UIFocusEnvironmentP", "SVProgressHUDStyle"]
+- ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "WAIT_PLEASE"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- ["So18UIFocusEnvironmentP", "dismissKeyboard"]
+- !private ["So18UIFocusEnvironmentP", "dismissWithCompletion"]
+- !private ["So18UIFocusEnvironmentP", "dismissWithDelay"]
+- ["So18UIFocusEnvironmentP", "disposeBag"]
+- !private ["So18UIFocusEnvironmentP", "endEditing"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- ["So18UIFocusEnvironmentP", "hideProgressIndicator"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "setBackgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "setDefaultMaskType"]
+- !private ["So18UIFocusEnvironmentP", "setDefaultStyle"]
+- !private ["So18UIFocusEnvironmentP", "setForegroundColor"]
+- !private ["So18UIFocusEnvironmentP", "show"]
+- !private ["So18UIFocusEnvironmentP", "showImage"]
+- ["So18UIFocusEnvironmentP", "showProgressIndicator"]
+- ["So18UIFocusEnvironmentP", "showProgressWaitIndicator"]
+- !private ["So18UIFocusEnvironmentP", "showWithMaskType"]
+- !private ["So18UIFocusEnvironmentP", "showWithStatus"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So11UIFocusItemP", "dismiss"]
+- !private ["So11UIFocusItemP", "dismissWithCompletion"]
+- !private ["So11UIFocusItemP", "dismissWithDelay"]
+- !private ["So11UIFocusItemP", "endEditing"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "setBackgroundColor"]
+- !private ["So11UIFocusItemP", "setDefaultMaskType"]
+- !private ["So11UIFocusItemP", "setDefaultStyle"]
+- !private ["So11UIFocusItemP", "setForegroundColor"]
+- !private ["So11UIFocusItemP", "show"]
+- !private ["So11UIFocusItemP", "showImage"]
+- !private ["So11UIFocusItemP", "showWithMaskType"]
+- !private ["So11UIFocusItemP", "showWithStatus"]
+- !private ["So20UIFocusItemContainerP", "dismiss"]
+- !private ["So20UIFocusItemContainerP", "dismissWithCompletion"]
+- !private ["So20UIFocusItemContainerP", "dismissWithDelay"]
+- !private ["So20UIFocusItemContainerP", "endEditing"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "setBackgroundColor"]
+- !private ["So20UIFocusItemContainerP", "setDefaultMaskType"]
+- !private ["So20UIFocusItemContainerP", "setDefaultStyle"]
+- !private ["So20UIFocusItemContainerP", "setForegroundColor"]
+- !private ["So20UIFocusItemContainerP", "show"]
+- !private ["So20UIFocusItemContainerP", "showImage"]
+- !private ["So20UIFocusItemContainerP", "showWithMaskType"]
+- !private ["So20UIFocusItemContainerP", "showWithStatus"]
+- !private ["So24UILargeContentViewerItemP", "dismiss"]
+- !private ["So24UILargeContentViewerItemP", "dismissWithCompletion"]
+- !private ["So24UILargeContentViewerItemP", "dismissWithDelay"]
+- !private ["So24UILargeContentViewerItemP", "endEditing"]
+- !private ["So24UILargeContentViewerItemP", "frame"]
+- !private ["So24UILargeContentViewerItemP", "setBackgroundColor"]
+- !private ["So24UILargeContentViewerItemP", "setDefaultMaskType"]
+- !private ["So24UILargeContentViewerItemP", "setDefaultStyle"]
+- !private ["So24UILargeContentViewerItemP", "setForegroundColor"]
+- !private ["So24UILargeContentViewerItemP", "show"]
+- !private ["So24UILargeContentViewerItemP", "showImage"]
+- !private ["So24UILargeContentViewerItemP", "showWithMaskType"]
+- !private ["So24UILargeContentViewerItemP", "showWithStatus"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- ["So30UIPasteConfigurationSupportingP", "DisposeBag"]
+- !private ["So30UIPasteConfigurationSupportingP", "SVProgressHUD"]
+- !private ["So30UIPasteConfigurationSupportingP", "SVProgressHUDMaskType"]
+- !private ["So30UIPasteConfigurationSupportingP", "SVProgressHUDStyle"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "WAIT_PLEASE"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- ["So30UIPasteConfigurationSupportingP", "dismissKeyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismissWithCompletion"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismissWithDelay"]
+- ["So30UIPasteConfigurationSupportingP", "disposeBag"]
+- !private ["So30UIPasteConfigurationSupportingP", "endEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "frameForAlignmentRect"]
+- ["So30UIPasteConfigurationSupportingP", "hideProgressIndicator"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "setBackgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "setDefaultMaskType"]
+- !private ["So30UIPasteConfigurationSupportingP", "setDefaultStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "setForegroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "show"]
+- !private ["So30UIPasteConfigurationSupportingP", "showImage"]
+- ["So30UIPasteConfigurationSupportingP", "showProgressIndicator"]
+- ["So30UIPasteConfigurationSupportingP", "showProgressWaitIndicator"]
+- !private ["So30UIPasteConfigurationSupportingP", "showWithMaskType"]
+- !private ["So30UIPasteConfigurationSupportingP", "showWithStatus"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- ["So11UIResponderC", "DisposeBag"]
+- !private ["So11UIResponderC", "SVProgressHUD"]
+- !private ["So11UIResponderC", "SVProgressHUDMaskType"]
+- !private ["So11UIResponderC", "SVProgressHUDStyle"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "WAIT_PLEASE"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "dismissKeyboard"]
+- !private ["So11UIResponderC", "dismissWithCompletion"]
+- !private ["So11UIResponderC", "dismissWithDelay"]
+- ["So11UIResponderC", "disposeBag"]
+- !private ["So11UIResponderC", "endEditing"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "frameForAlignmentRect"]
+- ["So11UIResponderC", "hideProgressIndicator"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "setBackgroundColor"]
+- !private ["So11UIResponderC", "setDefaultMaskType"]
+- !private ["So11UIResponderC", "setDefaultStyle"]
+- !private ["So11UIResponderC", "setForegroundColor"]
+- !private ["So11UIResponderC", "show"]
+- !private ["So11UIResponderC", "showImage"]
+- ["So11UIResponderC", "showProgressIndicator"]
+- ["So11UIResponderC", "showProgressWaitIndicator"]
+- !private ["So11UIResponderC", "showWithMaskType"]
+- !private ["So11UIResponderC", "showWithStatus"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- ["So30UIResponderStandardEditActionsP", "DisposeBag"]
+- !private ["So30UIResponderStandardEditActionsP", "SVProgressHUD"]
+- !private ["So30UIResponderStandardEditActionsP", "SVProgressHUDMaskType"]
+- !private ["So30UIResponderStandardEditActionsP", "SVProgressHUDStyle"]
+- ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "WAIT_PLEASE"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- ["So30UIResponderStandardEditActionsP", "dismissKeyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "dismissWithCompletion"]
+- !private ["So30UIResponderStandardEditActionsP", "dismissWithDelay"]
+- ["So30UIResponderStandardEditActionsP", "disposeBag"]
+- !private ["So30UIResponderStandardEditActionsP", "endEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "frameForAlignmentRect"]
+- ["So30UIResponderStandardEditActionsP", "hideProgressIndicator"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "setBackgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "setDefaultMaskType"]
+- !private ["So30UIResponderStandardEditActionsP", "setDefaultStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "setForegroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "show"]
+- !private ["So30UIResponderStandardEditActionsP", "showImage"]
+- ["So30UIResponderStandardEditActionsP", "showProgressIndicator"]
+- ["So30UIResponderStandardEditActionsP", "showProgressWaitIndicator"]
+- !private ["So30UIResponderStandardEditActionsP", "showWithMaskType"]
+- !private ["So30UIResponderStandardEditActionsP", "showWithStatus"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- ["So16UIStateRestoringP", "DisposeBag"]
+- !private ["So16UIStateRestoringP", "SVProgressHUD"]
+- !private ["So16UIStateRestoringP", "SVProgressHUDMaskType"]
+- !private ["So16UIStateRestoringP", "SVProgressHUDStyle"]
+- ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- !private ["So16UIStateRestoringP", "WAIT_PLEASE"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "dismissKeyboard"]
+- ["So16UIStateRestoringP", "disposeBag"]
+- ["So16UIStateRestoringP", "hideProgressIndicator"]
+- ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "showProgressIndicator"]
+- ["So16UIStateRestoringP", "showProgressWaitIndicator"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- ["So18UITraitEnvironmentP", "DisposeBag"]
+- !private ["So18UITraitEnvironmentP", "SVProgressHUD"]
+- !private ["So18UITraitEnvironmentP", "SVProgressHUDMaskType"]
+- !private ["So18UITraitEnvironmentP", "SVProgressHUDStyle"]
+- ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "WAIT_PLEASE"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- ["So18UITraitEnvironmentP", "dismissKeyboard"]
+- !private ["So18UITraitEnvironmentP", "dismissWithCompletion"]
+- !private ["So18UITraitEnvironmentP", "dismissWithDelay"]
+- ["So18UITraitEnvironmentP", "disposeBag"]
+- !private ["So18UITraitEnvironmentP", "endEditing"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- ["So18UITraitEnvironmentP", "hideProgressIndicator"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "setBackgroundColor"]
+- !private ["So18UITraitEnvironmentP", "setDefaultMaskType"]
+- !private ["So18UITraitEnvironmentP", "setDefaultStyle"]
+- !private ["So18UITraitEnvironmentP", "setForegroundColor"]
+- !private ["So18UITraitEnvironmentP", "show"]
+- !private ["So18UITraitEnvironmentP", "showImage"]
+- ["So18UITraitEnvironmentP", "showProgressIndicator"]
+- ["So18UITraitEnvironmentP", "showProgressWaitIndicator"]
+- !private ["So18UITraitEnvironmentP", "showWithMaskType"]
+- !private ["So18UITraitEnvironmentP", "showWithStatus"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So23UIUserActivityRestoringP", "DispatchQueue"]
+- ["So23UIUserActivityRestoringP", "DisposeBag"]
+- !private ["So23UIUserActivityRestoringP", "SVProgressHUD"]
+- !private ["So23UIUserActivityRestoringP", "SVProgressHUDMaskType"]
+- !private ["So23UIUserActivityRestoringP", "SVProgressHUDStyle"]
+- ["So23UIUserActivityRestoringP", "String"]
+- !private ["So23UIUserActivityRestoringP", "UIColor"]
+- !private ["So23UIUserActivityRestoringP", "WAIT_PLEASE"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- ["So23UIUserActivityRestoringP", "dismissKeyboard"]
+- !private ["So23UIUserActivityRestoringP", "dismissWithCompletion"]
+- !private ["So23UIUserActivityRestoringP", "dismissWithDelay"]
+- ["So23UIUserActivityRestoringP", "disposeBag"]
+- !private ["So23UIUserActivityRestoringP", "endEditing"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "frameForAlignmentRect"]
+- ["So23UIUserActivityRestoringP", "hideProgressIndicator"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "setBackgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "setDefaultMaskType"]
+- !private ["So23UIUserActivityRestoringP", "setDefaultStyle"]
+- !private ["So23UIUserActivityRestoringP", "setForegroundColor"]
+- !private ["So23UIUserActivityRestoringP", "show"]
+- !private ["So23UIUserActivityRestoringP", "showImage"]
+- ["So23UIUserActivityRestoringP", "showProgressIndicator"]
+- ["So23UIUserActivityRestoringP", "showProgressWaitIndicator"]
+- !private ["So23UIUserActivityRestoringP", "showWithMaskType"]
+- !private ["So23UIUserActivityRestoringP", "showWithStatus"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "dismiss"]
+- !private ["So6UIViewC", "dismissWithCompletion"]
+- !private ["So6UIViewC", "dismissWithDelay"]
+- !private ["So6UIViewC", "endEditing"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "setBackgroundColor"]
+- !private ["So6UIViewC", "setDefaultMaskType"]
+- !private ["So6UIViewC", "setDefaultStyle"]
+- !private ["So6UIViewC", "setForegroundColor"]
+- !private ["So6UIViewC", "show"]
+- !private ["So6UIViewC", "showImage"]
+- !private ["So6UIViewC", "showWithMaskType"]
+- !private ["So6UIViewC", "showWithStatus"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- ["So16UIViewControllerC", "DisposeBag"]
+- !private ["So16UIViewControllerC", "SVProgressHUD"]
+- !private ["So16UIViewControllerC", "SVProgressHUDMaskType"]
+- !private ["So16UIViewControllerC", "SVProgressHUDStyle"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- !private ["So16UIViewControllerC", "WAIT_PLEASE"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "dismissKeyboard"]
+- ["So16UIViewControllerC", "disposeBag"]
+- ["So16UIViewControllerC", "hideProgressIndicator"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "showProgressIndicator"]
+- ["So16UIViewControllerC", "showProgressWaitIndicator"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["7SwiftUI4ViewP", "endEditing"]
+- !private ["7SwiftUI4ViewP", "frame"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "y"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DisposeBag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SVProgressHUD"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SVProgressHUDMaskType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SVProgressHUDStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WAIT_PLEASE"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismissKeyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hideProgressIndicator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setBackgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setDefaultMaskType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setDefaultStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setForegroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "show"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showProgressIndicator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showProgressWaitIndicator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DispatchQueue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DisposeBag"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SVProgressHUD"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SVProgressHUDMaskType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SVProgressHUDStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "WAIT_PLEASE"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "black"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismiss"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismissKeyboard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "endEditing"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hideProgressIndicator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setBackgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setDefaultMaskType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setDefaultStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setForegroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "show"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showProgressIndicator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showProgressWaitIndicator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "endEditing"]
+- !private ["s21_ObjectiveCBridgeableP", "frame"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dismiss"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "endEditing"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setBackgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setDefaultMaskType"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setDefaultStyle"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setForegroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "show"]
+depends-nominal:
+- !private "7SwiftUI10AnimatableP"
+- "7Pokemon18BaseViewControllerC"
+- "SK"
+- !private "So15CALayerDelegateP"
+- !private "So7CGPointV"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "7SnapKit24ConstraintConstantTargetP"
+- !private "7SnapKit25ConstraintRelatableTargetP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- !private "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- !private "7RxCocoa16KVORepresentableP"
+- !private "7SnapKit20LayoutConstraintItemP"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "So9OS_objectC"
+- !private "Sq"
+- !private "SY"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "So13SVProgressHUDC"
+- !private "So21SVProgressHUDMaskTypeV"
+- !private "So18SVProgressHUDStyleV"
+- !private "7Combine9SchedulerP"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "7SwiftUI4ViewP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/MarqueeLabel/MarqueeLabel.framework/Modules/MarqueeLabel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/NotificationBannerSwift/NotificationBannerSwift.framework/Modules/NotificationBannerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker-3.0-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/MarqueeLabel/MarqueeLabel.framework/Headers/MarqueeLabel-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/NotificationBannerSwift/NotificationBannerSwift.framework/Headers/NotificationBannerSwift-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPickerDelegate.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetDistancePicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetLocalePicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetDatePicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetMultipleStringPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetStringPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/AbstractActionSheetPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/SWActionSheet.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/MarqueeLabel/MarqueeLabel.framework/Headers/MarqueeLabel-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/NotificationBannerSwift/NotificationBannerSwift.framework/Headers/NotificationBannerSwift-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/DistancePickerView.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/MarqueeLabel/MarqueeLabel.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/NotificationBannerSwift/NotificationBannerSwift.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9ee66b46b4f845555e0b1728fba6f995"

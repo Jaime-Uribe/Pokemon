@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "072e70a95957347cbc56ba63c3d0bdb5"
+build_time: [1616899370, 176610000]
+inputs:
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/NotificationBannerSwift/NotificationBanner/Classes/BannerColors.swift": [1616855375, 313623218]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/NotificationBannerSwift/NotificationBanner/Classes/BannerHapticGenerator.swift": [1616855375, 314478216]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/NotificationBannerSwift/NotificationBanner/Classes/BannerPositionFrame.swift": [1616855375, 312554494]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/NotificationBannerSwift/NotificationBanner/Classes/BannerStyle.swift": [1616855375, 312810110]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/NotificationBannerSwift/NotificationBanner/Classes/BaseNotificationBanner.swift": [1616855375, 314876599]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/NotificationBannerSwift/NotificationBanner/Classes/FloatingNotificationBanner.swift": [1616855375, 311881005]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/NotificationBannerSwift/NotificationBanner/Classes/GrowingNotificationBanner.swift": [1616855375, 314187275]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/NotificationBannerSwift/NotificationBanner/Classes/NotificationBanner.swift": [1616855375, 315438951]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/NotificationBannerSwift/NotificationBanner/Classes/NotificationBannerQueue.swift": [1616855375, 315191919]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/NotificationBannerSwift/NotificationBanner/Classes/NotificationBannerUtilities.swift": [1616855375, 313351623]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/NotificationBannerSwift/NotificationBanner/Classes/StatusBarNotificationBanner.swift": [1616855375, 313086932]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/NotificationBannerSwift/NotificationBanner/Classes/String+heightForConstrainedWidth.swift": [1616855375, 313888014]
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/NotificationBannerSwift/NotificationBanner/Classes/UIWindow+orientation.swift": [1616855375, 312270121]

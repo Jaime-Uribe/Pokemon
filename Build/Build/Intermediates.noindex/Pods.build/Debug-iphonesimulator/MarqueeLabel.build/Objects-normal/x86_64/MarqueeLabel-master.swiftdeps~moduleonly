@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "1fe443ad691657b5ad7be033b0632bc7"
+build_time: [1616899369, 901053000]
+inputs:
+  "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/MarqueeLabel/Sources/MarqueeLabel.swift": [1616855375, 294573571]
