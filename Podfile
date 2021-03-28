@@ -20,7 +20,6 @@ target 'Pokemon' do
   target 'PokemonTests' do
     pod 'Alamofire', '~> 5.4.1'
     pod 'RxSwift', '~> 5.0.0'
-    pod 'Moya/RxSwift', '~> 14.0'
     pod 'RxCocoa', '~> 5.0.0'
     inherit! :search_paths
   end

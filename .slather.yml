@@ -1,0 +1,10 @@
+
+coverage_service: cobertura_xml
+workspace: Pokemon.xcodeproj
+scheme: Pokemon
+xcodeproj: Pokemon.xcodeproj
+source_directory: Pokemon
+output_directory: coverage
+build_directory: build
+ignore:
+  - PokemonTests/*
