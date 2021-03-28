@@ -1,7 +1,8 @@
 
 coverage_service: cobertura_xml
-xcodeproj: Pokemon.xcodeproj
+workspace: Pokemon.xcodeproj
 scheme: Pokemon
+xcodeproj: PokemonTests.xcodeproj
 source_directory: Pokemon
 output_directory: coverage
 build_directory: build
