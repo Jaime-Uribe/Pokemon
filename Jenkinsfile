@@ -1,13 +1,4 @@
 node {
-stage('Cocoapods') {
-      steps {
-        retry(count: 2) {
-          dir(path: 'Pokemon') {
-            sh 'pod install'
-          }
-        }
-      }
-}
     stage('Checkout/Build/Test') {
 
         // Checkout files.
@@ -23,6 +14,7 @@ stage('Cocoapods') {
         ])
 
         // Build and Test
+sh 'pod install'
         sh 'xcodebuild -scheme "Pokemon" -configuration "Debug" build test -destination "platform=iOS Simulator,name=iPhone 8,OS=14.4" -enableCodeCoverage YES | /usr/local/bin/xcpretty -r junit'
 
         // Publish test restults.
