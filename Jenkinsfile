@@ -7,7 +7,7 @@ stage('Cocoapods') {
           }
         }
       }
-
+}
     stage('Checkout/Build/Test') {
 
         // Checkout files.
