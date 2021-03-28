@@ -1,4 +1,7 @@
 node {
+stage('Cocoapods') {
+            sh 'pod install'
+}
     stage('Checkout/Build/Test') {
 
         // Checkout files.
