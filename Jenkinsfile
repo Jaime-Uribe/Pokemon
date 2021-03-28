@@ -19,4 +19,9 @@ node {
         // Publish test restults.
         step([$class: 'JUnitResultArchiver', allowEmptyResults: true, testResults: 'coverage/cobertura.xml'])
     }
+
+
+stage('Analytics'){
+	sh 'slather'
+}
 }
