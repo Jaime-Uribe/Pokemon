@@ -1,7 +1,11 @@
 node {
 stage('Cocoapods') {
+      steps {
+          dir(path: 'Pokemon') {
             sh 'pod install'
-}
+          }
+        }
+      }
     stage('Checkout/Build/Test') {
 
         // Checkout files.
