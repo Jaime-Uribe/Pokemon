@@ -24,7 +24,7 @@ node {
 
         parallel Coverage: {
             // Generate Code Coverage report
-            sh '/usr/local/bin/slather coverage --jenkins --html --scheme Pokemon Pokemon.xcodeproj/'
+            sh '/usr/local/bin/slather coverage --jenkins --cobertura-xml --scheme Pokemon Pokemon.xcodeproj/'
 
             // Publish coverage results
             publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'html', reportFiles: 'index.html', reportName: 'Coverage Report'])
