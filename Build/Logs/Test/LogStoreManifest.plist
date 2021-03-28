@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>DC7DD17D-4E12-4965-B422-33B2094F58AA</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>C444348D-992F-40A4-B9B4-552535541A3B</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Run-Pokemon-2021.03.27_20-33-29--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasCoverageData</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Pokemon project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pokemon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Pokemon</string>
+			<key>timeStartedRecording</key>
+			<real>638588009.34016001</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Pokemon</string>
+			<key>uniqueIdentifier</key>
+			<string>DC7DD17D-4E12-4965-B422-33B2094F58AA</string>
+		</dict>
+		<key>F6862A55-FFE5-4645-82AB-ED264637FCF7</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>C3467364-70D8-460A-A527-3AB6E334253C</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Run-Pokemon-2021.03.27_20-32-21--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasCoverageData</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Pokemon project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pokemon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Pokemon</string>
+			<key>timeStartedRecording</key>
+			<real>638587941.49418998</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Pokemon</string>
+			<key>uniqueIdentifier</key>
+			<string>F6862A55-FFE5-4645-82AB-ED264637FCF7</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

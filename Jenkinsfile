@@ -14,10 +14,10 @@ node {
         ])
 
         // Build and Test
-        sh 'xcodebuild -scheme "Pokemon" -configuration "Debug" build test -destination "platform=iOS Simulator,name=iPhone 8,OS=14.4" -enableCodeCoverage YES | /usr/local/bin/xcpretty -r junit'
+        sh 'xcodebuild -workspace Pokemon.xcworkspace -scheme Pokemon -derivedDataPath Build/ -destination "platform=iOS Simulator,OS=14.4,id=303094CB-B10F-4918-8557-F709210540CF"  -enableCodeCoverage YES clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO'
 
         // Publish test restults.
-        step([$class: 'JUnitResultArchiver', allowEmptyResults: true, testResults: 'build/reports/junit.xml'])
+        step([$class: 'JUnitResultArchiver', allowEmptyResults: true, testResults: 'coverage/cobertura.xml'])
     }
 
     stage('Analytics') {

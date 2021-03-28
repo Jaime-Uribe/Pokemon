@@ -1,0 +1,966 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "errorBLPokemon"
+- "PokemonMock"
+- "PokemonWhitErrorMock"
+- "PokemonTests"
+provides-nominal:
+- "12PokemonTests14errorBLPokemonO"
+- "12PokemonTests0A4MockC"
+- "12PokemonTests0A13WhitErrorMockC"
+- "12PokemonTestsAAC"
+provides-member:
+- ["12PokemonTests14errorBLPokemonO", ""]
+- ["12PokemonTests0A4MockC", ""]
+- ["12PokemonTests0A13WhitErrorMockC", ""]
+- ["12PokemonTestsAAC", ""]
+provides-dynamic-lookup:
+- "createError"
+- "disposebag"
+- "getListOfPokemonForGeneration"
+- "getPoKemonDescription"
+- "getPokemon"
+- "setUp"
+- "tearDown"
+- "testExample"
+- "testGetDescriptionPokemon"
+- "testGetDescriptionPokemonServicesResposeError"
+- "testGetListOfPokemonsForGeneration"
+- "testGetListOfPokemonsForGenerationServicesResposeError"
+- "testGetPokemonWhenListIsEmpty"
+- "testGetPokemonWhenListServicesResposeError"
+- "viewModel"
+depends-top-level:
+- !private "!"
+- "=="
+- !private "Ability"
+- !private "Array"
+- "AssignmentPrecedence"
+- "DescriptionPokemonResponse"
+- !private "Dictionary"
+- "DisposeBag"
+- "Error"
+- !private "FloatLiteralType"
+- !private "FloverText"
+- !private "GeneralResponse"
+- "GenerationResponse"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "Move"
+- !private "NSError"
+- !private "NSLocalizedDescriptionKey"
+- !private "NameFromGeneration"
+- "Observable"
+- !private "PokemonDetailViewModel"
+- "PokemonListBLBehavior"
+- "PokemonListViewModel"
+- "PokemonMock"
+- "PokemonResponse"
+- "PokemonTests"
+- "PokemonWhitErrorMock"
+- !private "Sprites"
+- "String"
+- !private "StringLiteralType"
+- !private "Type"
+- !private "XCTAssert"
+- !private "XCTAssertFalse"
+- !private "XCTAssertTrue"
+- "XCTestCase"
+- !private "createError"
+- "errorBLPokemon"
+- !private "viewModel"
+depends-member:
+- !private ["12PokemonTests7AbilityV", "CodingKeys"]
+- !private ["12PokemonTests7AbilityV", ""]
+- !private ["12PokemonTests7AbilityV", "init"]
+- !private ["9Alamofire0A8ExtendedP", "init"]
+- !private ["9Alamofire0A8ExtendedP", "isEmpty"]
+- !private ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["7RxRelay08BehaviorB0C", "accept"]
+- !private ["7RxRelay08BehaviorB0C", "value"]
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "isEmpty"]
+- !private ["s7CVarArgP", "DisposeBag"]
+- !private ["s7CVarArgP", "PokemonDetailViewModel"]
+- !private ["s7CVarArgP", "PokemonListViewModel"]
+- !private ["s7CVarArgP", "PokemonMock"]
+- !private ["s7CVarArgP", "PokemonWhitErrorMock"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "XCTAssert"]
+- !private ["s7CVarArgP", "XCTAssertFalse"]
+- !private ["s7CVarArgP", "XCTAssertTrue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "disposebag"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "tearDown"]
+- !private ["s7CVarArgP", "testExample"]
+- !private ["s7CVarArgP", "testGetDescriptionPokemon"]
+- !private ["s7CVarArgP", "testGetDescriptionPokemonServicesResposeError"]
+- !private ["s7CVarArgP", "testGetListOfPokemonsForGeneration"]
+- !private ["s7CVarArgP", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- !private ["s7CVarArgP", "testGetPokemonWhenListIsEmpty"]
+- !private ["s7CVarArgP", "testGetPokemonWhenListServicesResposeError"]
+- !private ["s7CVarArgP", "viewModel"]
+- !private ["s9CodingKeyP", ""]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", ""]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["SL", ""]
+- !private ["SL", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "DisposeBag"]
+- !private ["s28CustomDebugStringConvertibleP", "PokemonDetailViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "PokemonListViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "PokemonMock"]
+- !private ["s28CustomDebugStringConvertibleP", "PokemonWhitErrorMock"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssert"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertFalse"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertTrue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "disposebag"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "input"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "output"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "tearDown"]
+- !private ["s28CustomDebugStringConvertibleP", "testExample"]
+- !private ["s28CustomDebugStringConvertibleP", "testGetDescriptionPokemon"]
+- !private ["s28CustomDebugStringConvertibleP", "testGetDescriptionPokemonServicesResposeError"]
+- !private ["s28CustomDebugStringConvertibleP", "testGetListOfPokemonsForGeneration"]
+- !private ["s28CustomDebugStringConvertibleP", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- !private ["s28CustomDebugStringConvertibleP", "testGetPokemonWhenListIsEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "testGetPokemonWhenListServicesResposeError"]
+- !private ["s28CustomDebugStringConvertibleP", "viewModel"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "input"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "output"]
+- !private ["s23CustomStringConvertibleP", "DisposeBag"]
+- !private ["s23CustomStringConvertibleP", "PokemonDetailViewModel"]
+- !private ["s23CustomStringConvertibleP", "PokemonListViewModel"]
+- !private ["s23CustomStringConvertibleP", "PokemonMock"]
+- !private ["s23CustomStringConvertibleP", "PokemonWhitErrorMock"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "XCTAssert"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertFalse"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertTrue"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "disposebag"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "tearDown"]
+- !private ["s23CustomStringConvertibleP", "testExample"]
+- !private ["s23CustomStringConvertibleP", "testGetDescriptionPokemon"]
+- !private ["s23CustomStringConvertibleP", "testGetDescriptionPokemonServicesResposeError"]
+- !private ["s23CustomStringConvertibleP", "testGetListOfPokemonsForGeneration"]
+- !private ["s23CustomStringConvertibleP", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- !private ["s23CustomStringConvertibleP", "testGetPokemonWhenListIsEmpty"]
+- !private ["s23CustomStringConvertibleP", "testGetPokemonWhenListServicesResposeError"]
+- !private ["s23CustomStringConvertibleP", "viewModel"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["Se", "abilities"]
+- !private ["Se", "base_happiness"]
+- !private ["Se", "capture_rate"]
+- !private ["Se", "flavor_text_entries"]
+- !private ["Se", "height"]
+- !private ["Se", "id"]
+- !private ["Se", "imageURLPokemon"]
+- !private ["Se", "init"]
+- !private ["Se", "input"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "moves"]
+- !private ["Se", "name"]
+- !private ["Se", "names"]
+- !private ["Se", "output"]
+- !private ["Se", "pokemon_species"]
+- !private ["Se", "sprites"]
+- !private ["Se", "types"]
+- !private ["Se", "weight"]
+- !private ["12PokemonTests011DescriptionA8ResponseV", "CodingKeys"]
+- !private ["12PokemonTests011DescriptionA8ResponseV", ""]
+- !private ["12PokemonTests011DescriptionA8ResponseV", "base_happiness"]
+- !private ["12PokemonTests011DescriptionA8ResponseV", "capture_rate"]
+- !private ["12PokemonTests011DescriptionA8ResponseV", "flavor_text_entries"]
+- !private ["12PokemonTests011DescriptionA8ResponseV", "init"]
+- !private ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", ""]
+- !private ["7RxSwift11DisposeBaseC", "init"]
+- !private ["SE", "abilities"]
+- !private ["SE", "base_happiness"]
+- !private ["SE", "capture_rate"]
+- !private ["SE", "flavor_text_entries"]
+- !private ["SE", "height"]
+- !private ["SE", "id"]
+- !private ["SE", "imageURLPokemon"]
+- !private ["SE", "init"]
+- !private ["SE", "input"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "moves"]
+- !private ["SE", "name"]
+- !private ["SE", "names"]
+- !private ["SE", "output"]
+- !private ["SE", "pokemon_species"]
+- !private ["SE", "sprites"]
+- !private ["SE", "types"]
+- !private ["SE", "weight"]
+- ["SQ", "=="]
+- !private ["SQ", "DisposeBag"]
+- !private ["SQ", "PokemonDetailViewModel"]
+- !private ["SQ", "PokemonListViewModel"]
+- !private ["SQ", "PokemonMock"]
+- !private ["SQ", "PokemonWhitErrorMock"]
+- !private ["SQ", "String"]
+- !private ["SQ", "XCTAssert"]
+- !private ["SQ", "XCTAssertFalse"]
+- !private ["SQ", "XCTAssertTrue"]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- ["SQ", "code"]
+- !private ["SQ", "disposebag"]
+- ["SQ", "domain"]
+- !private ["SQ", "errorResponse"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "input"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "output"]
+- !private ["SQ", "setUp"]
+- !private ["SQ", "tearDown"]
+- !private ["SQ", "testExample"]
+- !private ["SQ", "testGetDescriptionPokemon"]
+- !private ["SQ", "testGetDescriptionPokemonServicesResposeError"]
+- !private ["SQ", "testGetListOfPokemonsForGeneration"]
+- !private ["SQ", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- !private ["SQ", "testGetPokemonWhenListIsEmpty"]
+- !private ["SQ", "testGetPokemonWhenListServicesResposeError"]
+- ["SQ", "userInfo"]
+- !private ["SQ", "viewModel"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- !private ["s5ErrorP", "errorResponse"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s5ErrorP", "init"]
+- ["s5ErrorP", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s23ExpressibleByNilLiteralP", "input"]
+- !private ["s23ExpressibleByNilLiteralP", "output"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["12PokemonTests10FloverTextV", "CodingKeys"]
+- !private ["12PokemonTests10FloverTextV", ""]
+- !private ["12PokemonTests10FloverTextV", "init"]
+- !private ["12PokemonTests15GeneralResponseV", "CodingKeys"]
+- !private ["12PokemonTests15GeneralResponseV", ""]
+- !private ["12PokemonTests15GeneralResponseV", "init"]
+- !private ["12PokemonTests18GenerationResponseV", "CodingKeys"]
+- !private ["12PokemonTests18GenerationResponseV", ""]
+- !private ["12PokemonTests18GenerationResponseV", "id"]
+- !private ["12PokemonTests18GenerationResponseV", "init"]
+- !private ["12PokemonTests18GenerationResponseV", "name"]
+- !private ["12PokemonTests18GenerationResponseV", "names"]
+- !private ["12PokemonTests18GenerationResponseV", "pokemon_species"]
+- !private ["7SwiftUI7GestureP", "input"]
+- !private ["7SwiftUI7GestureP", "output"]
+- ["SH", "=="]
+- !private ["SH", "DisposeBag"]
+- !private ["SH", "PokemonDetailViewModel"]
+- !private ["SH", "PokemonListViewModel"]
+- !private ["SH", "PokemonMock"]
+- !private ["SH", "PokemonWhitErrorMock"]
+- !private ["SH", "String"]
+- !private ["SH", "XCTAssert"]
+- !private ["SH", "XCTAssertFalse"]
+- !private ["SH", "XCTAssertTrue"]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- ["SH", "code"]
+- !private ["SH", "disposebag"]
+- ["SH", "domain"]
+- !private ["SH", "errorResponse"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "input"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "output"]
+- !private ["SH", "setUp"]
+- !private ["SH", "tearDown"]
+- !private ["SH", "testExample"]
+- !private ["SH", "testGetDescriptionPokemon"]
+- !private ["SH", "testGetDescriptionPokemonServicesResposeError"]
+- !private ["SH", "testGetListOfPokemonsForGeneration"]
+- !private ["SH", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- !private ["SH", "testGetPokemonWhenListIsEmpty"]
+- !private ["SH", "testGetPokemonWhenListServicesResposeError"]
+- ["SH", "userInfo"]
+- !private ["SH", "viewModel"]
+- !private ["s6HasherV", "combine"]
+- !private ["12PokemonTests0A15DetailViewModelC5InputV", "idPokemon"]
+- !private ["12PokemonTests0A13ListViewModelC5InputV", "nameGeneration"]
+- !private ["12PokemonTests0A13ListViewModelC5InputV", "namesPokemons"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["12PokemonTests4MoveV", "CodingKeys"]
+- !private ["12PokemonTests4MoveV", ""]
+- !private ["12PokemonTests4MoveV", "init"]
+- !private ["SM", ""]
+- !private ["SM", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So7NSErrorC", "init"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- ["So8NSObjectC", "DisposeBag"]
+- !private ["So8NSObjectC", "PokemonDetailViewModel"]
+- ["So8NSObjectC", "PokemonListViewModel"]
+- !private ["So8NSObjectC", "PokemonMock"]
+- !private ["So8NSObjectC", "PokemonWhitErrorMock"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "XCTAssert"]
+- !private ["So8NSObjectC", "XCTAssertFalse"]
+- !private ["So8NSObjectC", "XCTAssertTrue"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "disposebag"]
+- !private ["So8NSObjectC", "errorWithDomain"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testCaseWithInvocation"]
+- ["So8NSObjectC", "testCaseWithSelector"]
+- ["So8NSObjectC", "testExample"]
+- ["So8NSObjectC", "testGetDescriptionPokemon"]
+- ["So8NSObjectC", "testGetDescriptionPokemonServicesResposeError"]
+- ["So8NSObjectC", "testGetListOfPokemonsForGeneration"]
+- ["So8NSObjectC", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- ["So8NSObjectC", "testGetPokemonWhenListIsEmpty"]
+- ["So8NSObjectC", "testGetPokemonWhenListServicesResposeError"]
+- ["So8NSObjectC", "viewModel"]
+- ["So8NSObjectP", "DisposeBag"]
+- !private ["So8NSObjectP", "PokemonDetailViewModel"]
+- ["So8NSObjectP", "PokemonListViewModel"]
+- !private ["So8NSObjectP", "PokemonMock"]
+- !private ["So8NSObjectP", "PokemonWhitErrorMock"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "XCTAssert"]
+- !private ["So8NSObjectP", "XCTAssertFalse"]
+- !private ["So8NSObjectP", "XCTAssertTrue"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "disposebag"]
+- !private ["So8NSObjectP", "errorWithDomain"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEmpty"]
+- ["So8NSObjectP", "setUp"]
+- ["So8NSObjectP", "tearDown"]
+- ["So8NSObjectP", "testCaseWithInvocation"]
+- ["So8NSObjectP", "testCaseWithSelector"]
+- ["So8NSObjectP", "testExample"]
+- ["So8NSObjectP", "testGetDescriptionPokemon"]
+- ["So8NSObjectP", "testGetDescriptionPokemonServicesResposeError"]
+- ["So8NSObjectP", "testGetListOfPokemonsForGeneration"]
+- ["So8NSObjectP", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- ["So8NSObjectP", "testGetPokemonWhenListIsEmpty"]
+- ["So8NSObjectP", "testGetPokemonWhenListServicesResposeError"]
+- ["So8NSObjectP", "viewModel"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["12PokemonTests18NameFromGenerationV", "CodingKeys"]
+- !private ["12PokemonTests18NameFromGenerationV", ""]
+- !private ["12PokemonTests18NameFromGenerationV", "init"]
+- !private ["7RxSwift10ObservableC", "error"]
+- !private ["7RxSwift10ObservableC", "just"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", ""]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "accept"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "error"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "just"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "value"]
+- !private ["7RxSwift14ObservableTypeP", "accept"]
+- !private ["7RxSwift14ObservableTypeP", "error"]
+- !private ["7RxSwift14ObservableTypeP", "just"]
+- !private ["7RxSwift14ObservableTypeP", "value"]
+- !private ["Sq", "input"]
+- !private ["Sq", "output"]
+- !private ["12PokemonTests0A15DetailViewModelC6OutputV", "descriptionPokemons"]
+- !private ["12PokemonTests0A13ListViewModelC6OutputV", "isError"]
+- !private ["12PokemonTests0A15DetailViewModelC6OutputV", "isError"]
+- !private ["12PokemonTests0A13ListViewModelC6OutputV", "listPokemonsGeneration"]
+- !private ["12PokemonTests0A15DetailViewModelC", "init"]
+- !private ["12PokemonTests0A15DetailViewModelC", "input"]
+- !private ["12PokemonTests0A15DetailViewModelC", "output"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "Ability"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "DescriptionPokemonResponse"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "FloverText"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "GeneralResponse"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "GenerationResponse"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "Move"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "NSError"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "NSLocalizedDescriptionKey"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "NameFromGeneration"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "Observable"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "PokemonResponse"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "Sprites"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "Type"]
+- ["12PokemonTests0A14ListBLBehaviorP", ""]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "createError"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "errorBLPokemon"]
+- ["12PokemonTests0A14ListBLBehaviorP", "getListOfPokemonForGeneration"]
+- ["12PokemonTests0A14ListBLBehaviorP", "getPoKemonDescription"]
+- ["12PokemonTests0A14ListBLBehaviorP", "getPokemon"]
+- !private ["12PokemonTests0A14ListBLBehaviorP", "init"]
+- !private ["12PokemonTests0A13ListViewModelC", "init"]
+- !private ["12PokemonTests0A13ListViewModelC", "input"]
+- !private ["12PokemonTests0A13ListViewModelC", "output"]
+- !private ["12PokemonTests0A4MockC", "Ability"]
+- ["12PokemonTests0A4MockC", "DescriptionPokemonResponse"]
+- !private ["12PokemonTests0A4MockC", "FloverText"]
+- !private ["12PokemonTests0A4MockC", "GeneralResponse"]
+- ["12PokemonTests0A4MockC", "GenerationResponse"]
+- ["12PokemonTests0A4MockC", "Int"]
+- !private ["12PokemonTests0A4MockC", "Move"]
+- !private ["12PokemonTests0A4MockC", "NameFromGeneration"]
+- ["12PokemonTests0A4MockC", "Observable"]
+- ["12PokemonTests0A4MockC", "PokemonResponse"]
+- !private ["12PokemonTests0A4MockC", "Sprites"]
+- ["12PokemonTests0A4MockC", "String"]
+- !private ["12PokemonTests0A4MockC", "Type"]
+- !private ["12PokemonTests0A4MockC", ""]
+- ["12PokemonTests0A4MockC", "deinit"]
+- ["12PokemonTests0A4MockC", "getListOfPokemonForGeneration"]
+- ["12PokemonTests0A4MockC", "getPoKemonDescription"]
+- ["12PokemonTests0A4MockC", "getPokemon"]
+- ["12PokemonTests0A4MockC", "init"]
+- !private ["12PokemonTests0A8ResponseV", "CodingKeys"]
+- !private ["12PokemonTests0A8ResponseV", ""]
+- !private ["12PokemonTests0A8ResponseV", "abilities"]
+- !private ["12PokemonTests0A8ResponseV", "height"]
+- !private ["12PokemonTests0A8ResponseV", "imageURLPokemon"]
+- !private ["12PokemonTests0A8ResponseV", "init"]
+- !private ["12PokemonTests0A8ResponseV", "moves"]
+- !private ["12PokemonTests0A8ResponseV", "name"]
+- !private ["12PokemonTests0A8ResponseV", "sprites"]
+- !private ["12PokemonTests0A8ResponseV", "types"]
+- !private ["12PokemonTests0A8ResponseV", "weight"]
+- ["12PokemonTestsAAC", "DisposeBag"]
+- !private ["12PokemonTestsAAC", "PokemonDetailViewModel"]
+- ["12PokemonTestsAAC", "PokemonListViewModel"]
+- !private ["12PokemonTestsAAC", "PokemonMock"]
+- !private ["12PokemonTestsAAC", "PokemonWhitErrorMock"]
+- !private ["12PokemonTestsAAC", "String"]
+- !private ["12PokemonTestsAAC", "XCTAssert"]
+- !private ["12PokemonTestsAAC", "XCTAssertFalse"]
+- !private ["12PokemonTestsAAC", "XCTAssertTrue"]
+- ["12PokemonTestsAAC", ""]
+- ["12PokemonTestsAAC", "deinit"]
+- ["12PokemonTestsAAC", "disposebag"]
+- ["12PokemonTestsAAC", "init"]
+- ["12PokemonTestsAAC", "setUp"]
+- ["12PokemonTestsAAC", "tearDown"]
+- ["12PokemonTestsAAC", "testExample"]
+- ["12PokemonTestsAAC", "testGetDescriptionPokemon"]
+- ["12PokemonTestsAAC", "testGetDescriptionPokemonServicesResposeError"]
+- ["12PokemonTestsAAC", "testGetListOfPokemonsForGeneration"]
+- ["12PokemonTestsAAC", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- ["12PokemonTestsAAC", "testGetPokemonWhenListIsEmpty"]
+- ["12PokemonTestsAAC", "testGetPokemonWhenListServicesResposeError"]
+- ["12PokemonTestsAAC", "viewModel"]
+- ["12PokemonTests0A13WhitErrorMockC", "DescriptionPokemonResponse"]
+- ["12PokemonTests0A13WhitErrorMockC", "Error"]
+- ["12PokemonTests0A13WhitErrorMockC", "GenerationResponse"]
+- ["12PokemonTests0A13WhitErrorMockC", "Int"]
+- !private ["12PokemonTests0A13WhitErrorMockC", "NSError"]
+- !private ["12PokemonTests0A13WhitErrorMockC", "NSLocalizedDescriptionKey"]
+- ["12PokemonTests0A13WhitErrorMockC", "Observable"]
+- ["12PokemonTests0A13WhitErrorMockC", "PokemonResponse"]
+- ["12PokemonTests0A13WhitErrorMockC", "String"]
+- !private ["12PokemonTests0A13WhitErrorMockC", ""]
+- ["12PokemonTests0A13WhitErrorMockC", "createError"]
+- ["12PokemonTests0A13WhitErrorMockC", "deinit"]
+- !private ["12PokemonTests0A13WhitErrorMockC", "errorBLPokemon"]
+- ["12PokemonTests0A13WhitErrorMockC", "getListOfPokemonForGeneration"]
+- ["12PokemonTests0A13WhitErrorMockC", "getPoKemonDescription"]
+- ["12PokemonTests0A13WhitErrorMockC", "getPokemon"]
+- ["12PokemonTests0A13WhitErrorMockC", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sm", ""]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["7RxSwift18ReactiveCompatibleP", "DisposeBag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "PokemonDetailViewModel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "PokemonListViewModel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "PokemonMock"]
+- !private ["7RxSwift18ReactiveCompatibleP", "PokemonWhitErrorMock"]
+- !private ["7RxSwift18ReactiveCompatibleP", "String"]
+- !private ["7RxSwift18ReactiveCompatibleP", "XCTAssert"]
+- !private ["7RxSwift18ReactiveCompatibleP", "XCTAssertFalse"]
+- !private ["7RxSwift18ReactiveCompatibleP", "XCTAssertTrue"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "disposebag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isEmpty"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setUp"]
+- !private ["7RxSwift18ReactiveCompatibleP", "tearDown"]
+- !private ["7RxSwift18ReactiveCompatibleP", "testExample"]
+- !private ["7RxSwift18ReactiveCompatibleP", "testGetDescriptionPokemon"]
+- !private ["7RxSwift18ReactiveCompatibleP", "testGetDescriptionPokemonServicesResposeError"]
+- !private ["7RxSwift18ReactiveCompatibleP", "testGetListOfPokemonsForGeneration"]
+- !private ["7RxSwift18ReactiveCompatibleP", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- !private ["7RxSwift18ReactiveCompatibleP", "testGetPokemonWhenListIsEmpty"]
+- !private ["7RxSwift18ReactiveCompatibleP", "testGetPokemonWhenListServicesResposeError"]
+- !private ["7RxSwift18ReactiveCompatibleP", "viewModel"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["12PokemonTests7SpritesV", "CodingKeys"]
+- !private ["12PokemonTests7SpritesV", ""]
+- !private ["12PokemonTests7SpritesV", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["Sy", "isEmpty"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["12PokemonTests4TypeV", "CodingKeys"]
+- !private ["12PokemonTests4TypeV", ""]
+- !private ["12PokemonTests4TypeV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "isEmpty"]
+- !private ["7SwiftUI4ViewP", "input"]
+- !private ["7SwiftUI4ViewP", "output"]
+- !private ["12PokemonTests17ViewModelProtocolP", "init"]
+- !private ["12PokemonTests17ViewModelProtocolP", "input"]
+- !private ["12PokemonTests17ViewModelProtocolP", "output"]
+- ["So11XCTActivityP", "DisposeBag"]
+- !private ["So11XCTActivityP", "PokemonDetailViewModel"]
+- ["So11XCTActivityP", "PokemonListViewModel"]
+- !private ["So11XCTActivityP", "PokemonMock"]
+- !private ["So11XCTActivityP", "PokemonWhitErrorMock"]
+- !private ["So11XCTActivityP", "String"]
+- !private ["So11XCTActivityP", "XCTAssert"]
+- !private ["So11XCTActivityP", "XCTAssertFalse"]
+- !private ["So11XCTActivityP", "XCTAssertTrue"]
+- ["So11XCTActivityP", ""]
+- ["So11XCTActivityP", "disposebag"]
+- ["So11XCTActivityP", "init"]
+- ["So11XCTActivityP", "setUp"]
+- ["So11XCTActivityP", "tearDown"]
+- ["So11XCTActivityP", "testExample"]
+- ["So11XCTActivityP", "testGetDescriptionPokemon"]
+- ["So11XCTActivityP", "testGetDescriptionPokemonServicesResposeError"]
+- ["So11XCTActivityP", "testGetListOfPokemonsForGeneration"]
+- ["So11XCTActivityP", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- ["So11XCTActivityP", "testGetPokemonWhenListIsEmpty"]
+- ["So11XCTActivityP", "testGetPokemonWhenListServicesResposeError"]
+- ["So11XCTActivityP", "viewModel"]
+- ["So17XCTWaiterDelegateP", "DisposeBag"]
+- !private ["So17XCTWaiterDelegateP", "PokemonDetailViewModel"]
+- ["So17XCTWaiterDelegateP", "PokemonListViewModel"]
+- !private ["So17XCTWaiterDelegateP", "PokemonMock"]
+- !private ["So17XCTWaiterDelegateP", "PokemonWhitErrorMock"]
+- !private ["So17XCTWaiterDelegateP", "String"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssert"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertFalse"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertTrue"]
+- ["So17XCTWaiterDelegateP", ""]
+- ["So17XCTWaiterDelegateP", "disposebag"]
+- ["So17XCTWaiterDelegateP", "init"]
+- ["So17XCTWaiterDelegateP", "setUp"]
+- ["So17XCTWaiterDelegateP", "tearDown"]
+- ["So17XCTWaiterDelegateP", "testExample"]
+- ["So17XCTWaiterDelegateP", "testGetDescriptionPokemon"]
+- ["So17XCTWaiterDelegateP", "testGetDescriptionPokemonServicesResposeError"]
+- ["So17XCTWaiterDelegateP", "testGetListOfPokemonsForGeneration"]
+- ["So17XCTWaiterDelegateP", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- ["So17XCTWaiterDelegateP", "testGetPokemonWhenListIsEmpty"]
+- ["So17XCTWaiterDelegateP", "testGetPokemonWhenListServicesResposeError"]
+- ["So17XCTWaiterDelegateP", "viewModel"]
+- ["So6XCTestC", "DisposeBag"]
+- !private ["So6XCTestC", "PokemonDetailViewModel"]
+- ["So6XCTestC", "PokemonListViewModel"]
+- !private ["So6XCTestC", "PokemonMock"]
+- !private ["So6XCTestC", "PokemonWhitErrorMock"]
+- !private ["So6XCTestC", "String"]
+- !private ["So6XCTestC", "XCTAssert"]
+- !private ["So6XCTestC", "XCTAssertFalse"]
+- !private ["So6XCTestC", "XCTAssertTrue"]
+- ["So6XCTestC", ""]
+- ["So6XCTestC", "disposebag"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testCaseWithInvocation"]
+- ["So6XCTestC", "testCaseWithSelector"]
+- ["So6XCTestC", "testExample"]
+- ["So6XCTestC", "testGetDescriptionPokemon"]
+- ["So6XCTestC", "testGetDescriptionPokemonServicesResposeError"]
+- ["So6XCTestC", "testGetListOfPokemonsForGeneration"]
+- ["So6XCTestC", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- ["So6XCTestC", "testGetPokemonWhenListIsEmpty"]
+- ["So6XCTestC", "testGetPokemonWhenListServicesResposeError"]
+- ["So6XCTestC", "viewModel"]
+- ["So10XCTestCaseC", "DisposeBag"]
+- !private ["So10XCTestCaseC", "PokemonDetailViewModel"]
+- ["So10XCTestCaseC", "PokemonListViewModel"]
+- !private ["So10XCTestCaseC", "PokemonMock"]
+- !private ["So10XCTestCaseC", "PokemonWhitErrorMock"]
+- !private ["So10XCTestCaseC", "String"]
+- !private ["So10XCTestCaseC", "XCTAssert"]
+- !private ["So10XCTestCaseC", "XCTAssertFalse"]
+- !private ["So10XCTestCaseC", "XCTAssertTrue"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "disposebag"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testExample"]
+- ["So10XCTestCaseC", "testGetDescriptionPokemon"]
+- ["So10XCTestCaseC", "testGetDescriptionPokemonServicesResposeError"]
+- ["So10XCTestCaseC", "testGetListOfPokemonsForGeneration"]
+- ["So10XCTestCaseC", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- ["So10XCTestCaseC", "testGetPokemonWhenListIsEmpty"]
+- ["So10XCTestCaseC", "testGetPokemonWhenListServicesResposeError"]
+- ["So10XCTestCaseC", "viewModel"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DisposeBag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PokemonDetailViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PokemonListViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PokemonMock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PokemonWhitErrorMock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertFalse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertTrue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disposebag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tearDown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testExample"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testGetDescriptionPokemon"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testGetDescriptionPokemonServicesResposeError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testGetListOfPokemonsForGeneration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testGetPokemonWhenListIsEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testGetPokemonWhenListServicesResposeError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DisposeBag"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PokemonDetailViewModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PokemonListViewModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PokemonMock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PokemonWhitErrorMock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssert"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertFalse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertTrue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "disposebag"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setUp"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tearDown"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testExample"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testGetDescriptionPokemon"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testGetDescriptionPokemonServicesResposeError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testGetListOfPokemonsForGeneration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testGetListOfPokemonsForGenerationServicesResposeError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testGetPokemonWhenListIsEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testGetPokemonWhenListServicesResposeError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewModel"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "input"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "output"]
+- !private ["So13CKRecordValueP", "isEmpty"]
+- ["12PokemonTests14errorBLPokemonO", "=="]
+- ["12PokemonTests14errorBLPokemonO", ""]
+- ["12PokemonTests14errorBLPokemonO", "__derived_enum_equals"]
+- ["12PokemonTests14errorBLPokemonO", "_code"]
+- ["12PokemonTests14errorBLPokemonO", "_domain"]
+- ["12PokemonTests14errorBLPokemonO", "_getEmbeddedNSError"]
+- ["12PokemonTests14errorBLPokemonO", "_rawHashValue"]
+- ["12PokemonTests14errorBLPokemonO", "_userInfo"]
+- ["12PokemonTests14errorBLPokemonO", "code"]
+- ["12PokemonTests14errorBLPokemonO", "domain"]
+- ["12PokemonTests14errorBLPokemonO", "errorResponse"]
+- ["12PokemonTests14errorBLPokemonO", "hash"]
+- ["12PokemonTests14errorBLPokemonO", "hashValue"]
+- ["12PokemonTests14errorBLPokemonO", "userInfo"]
+depends-nominal:
+- !private "12PokemonTests7AbilityV"
+- !private "9Alamofire0A8ExtendedP"
+- !private "Sa"
+- !private "7RxRelay08BehaviorB0C"
+- !private "SK"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "s9CodingKeyP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "12PokemonTests011DescriptionA8ResponseV"
+- !private "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "12PokemonTests10FloverTextV"
+- !private "12PokemonTests15GeneralResponseV"
+- !private "12PokemonTests18GenerationResponseV"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- !private "s6HasherV"
+- !private "12PokemonTests0A15DetailViewModelC5InputV"
+- !private "12PokemonTests0A13ListViewModelC5InputV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "12PokemonTests4MoveV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "12PokemonTests18NameFromGenerationV"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "Sq"
+- !private "12PokemonTests0A15DetailViewModelC6OutputV"
+- !private "12PokemonTests0A13ListViewModelC6OutputV"
+- !private "12PokemonTests0A15DetailViewModelC6OutputV"
+- !private "12PokemonTests0A13ListViewModelC6OutputV"
+- !private "12PokemonTests0A15DetailViewModelC"
+- "12PokemonTests0A14ListBLBehaviorP"
+- !private "12PokemonTests0A13ListViewModelC"
+- "12PokemonTests0A4MockC"
+- !private "12PokemonTests0A8ResponseV"
+- "12PokemonTestsAAC"
+- "12PokemonTests0A13WhitErrorMockC"
+- !private "Sk"
+- !private "Sm"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "ST"
+- !private "12PokemonTests7SpritesV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "12PokemonTests4TypeV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "7SwiftUI4ViewP"
+- !private "12PokemonTests17ViewModelProtocolP"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "So13CKRecordValueP"
+- "12PokemonTests14errorBLPokemonO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/MarqueeLabel/MarqueeLabel.framework/Modules/MarqueeLabel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Pokemon.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/NotificationBannerSwift/NotificationBannerSwift.framework/Modules/NotificationBannerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker-3.0-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/MarqueeLabel/MarqueeLabel.framework/Headers/MarqueeLabel-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/NotificationBannerSwift/NotificationBannerSwift.framework/Headers/NotificationBannerSwift-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPickerDelegate.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetDistancePicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetLocalePicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetDatePicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetMultipleStringPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetStringPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/AbstractActionSheetPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/SWActionSheet.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/MarqueeLabel/MarqueeLabel.framework/Headers/MarqueeLabel-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/NotificationBannerSwift/NotificationBannerSwift.framework/Headers/NotificationBannerSwift-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/DistancePickerView.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/MarqueeLabel/MarqueeLabel.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/NotificationBannerSwift/NotificationBannerSwift.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0df1b18a5ae236c7196025d28175439b"

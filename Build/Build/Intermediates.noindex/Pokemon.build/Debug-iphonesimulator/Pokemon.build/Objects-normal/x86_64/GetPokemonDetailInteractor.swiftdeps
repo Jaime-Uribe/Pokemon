@@ -1,0 +1,235 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Interactor"
+- "ObservableInteractor"
+- "GetPokemonDetailInteractor"
+provides-nominal:
+- "7Pokemon10InteractorP"
+- "7Pokemon20ObservableInteractorC"
+- "7Pokemon03GetA16DetailInteractorC"
+provides-member:
+- ["7Pokemon10InteractorP", ""]
+- ["7Pokemon20ObservableInteractorC", ""]
+- ["7Pokemon03GetA16DetailInteractorC", ""]
+provides-dynamic-lookup:
+- "buildUseCase"
+- "pokemonBLBehavior"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "ConcurrentDispatchQueueScheduler"
+- "DescriptionPokemonResponse"
+- "Disposable"
+- "Disposables"
+- "Error"
+- !private "FloatLiteralType"
+- "GetPokemonDetailInteractor"
+- "Int"
+- !private "IntegerLiteralType"
+- "Interactor"
+- !private "MainScheduler"
+- "Observable"
+- "ObservableInteractor"
+- "P"
+- "Params"
+- "PokemonListBLBehavior"
+- "R"
+- "Response"
+- "Void"
+- !private "buildUseCase"
+- !private "pokemonBLBehavior"
+depends-member:
+- !private ["7RxSwift32ConcurrentDispatchQueueSchedulerC", "init"]
+- !private ["8Dispatch0A3QoSV", "background"]
+- !private ["7RxSwift11DisposablesV", "create"]
+- !private ["SQ", "background"]
+- ["7Pokemon03GetA16DetailInteractorC", "DescriptionPokemonResponse"]
+- ["7Pokemon03GetA16DetailInteractorC", "Int"]
+- ["7Pokemon03GetA16DetailInteractorC", "Observable"]
+- ["7Pokemon03GetA16DetailInteractorC", "PokemonListBLBehavior"]
+- ["7Pokemon03GetA16DetailInteractorC", "buildUseCase"]
+- ["7Pokemon03GetA16DetailInteractorC", "deinit"]
+- ["7Pokemon03GetA16DetailInteractorC", "init"]
+- ["7Pokemon03GetA16DetailInteractorC", "pokemonBLBehavior"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", ""]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "init"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "instance"]
+- !private ["7Pokemon10InteractorP", "ConcurrentDispatchQueueScheduler"]
+- ["7Pokemon10InteractorP", "Disposable"]
+- !private ["7Pokemon10InteractorP", "Disposables"]
+- ["7Pokemon10InteractorP", "Error"]
+- !private ["7Pokemon10InteractorP", "MainScheduler"]
+- !private ["7Pokemon10InteractorP", "Observable"]
+- ["7Pokemon10InteractorP", "Params"]
+- ["7Pokemon10InteractorP", "Response"]
+- ["7Pokemon10InteractorP", "Void"]
+- ["7Pokemon10InteractorP", ""]
+- !private ["7Pokemon10InteractorP", "buildUseCase"]
+- ["7Pokemon10InteractorP", "excute"]
+- !private ["7Pokemon10InteractorP", "init"]
+- !private ["7Pokemon10InteractorP", "pokemonBLBehavior"]
+- !private ["7RxSwift13MainSchedulerC", "instance"]
+- !private ["7RxSwift10ObservableC", "create"]
+- !private ["7RxSwift10ObservableC", "flatMap"]
+- !private ["7RxSwift10ObservableC", "just"]
+- !private ["7RxSwift10ObservableC", "observeOn"]
+- !private ["7RxSwift10ObservableC", "retry"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- !private ["7RxSwift10ObservableC", "subscribeOn"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", ""]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "create"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "flatMap"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "just"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "observeOn"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "retry"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribeOn"]
+- !private ["7Pokemon20ObservableInteractorC", "ConcurrentDispatchQueueScheduler"]
+- ["7Pokemon20ObservableInteractorC", "DescriptionPokemonResponse"]
+- ["7Pokemon20ObservableInteractorC", "Disposable"]
+- !private ["7Pokemon20ObservableInteractorC", "Disposables"]
+- ["7Pokemon20ObservableInteractorC", "Error"]
+- ["7Pokemon20ObservableInteractorC", "Int"]
+- !private ["7Pokemon20ObservableInteractorC", "MainScheduler"]
+- ["7Pokemon20ObservableInteractorC", "Observable"]
+- ["7Pokemon20ObservableInteractorC", "Params"]
+- ["7Pokemon20ObservableInteractorC", "PokemonListBLBehavior"]
+- ["7Pokemon20ObservableInteractorC", "Response"]
+- ["7Pokemon20ObservableInteractorC", "Void"]
+- ["7Pokemon20ObservableInteractorC", ""]
+- ["7Pokemon20ObservableInteractorC", "buildUseCase"]
+- ["7Pokemon20ObservableInteractorC", "deinit"]
+- ["7Pokemon20ObservableInteractorC", "excute"]
+- ["7Pokemon20ObservableInteractorC", "init"]
+- ["7Pokemon20ObservableInteractorC", "pokemonBLBehavior"]
+- !private ["7RxSwift14ObservableTypeP", "create"]
+- !private ["7RxSwift14ObservableTypeP", "flatMap"]
+- !private ["7RxSwift14ObservableTypeP", "just"]
+- !private ["7RxSwift14ObservableTypeP", "observeOn"]
+- !private ["7RxSwift14ObservableTypeP", "retry"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["7RxSwift14ObservableTypeP", "subscribeOn"]
+- !private ["7Pokemon0A14ListBLBehaviorP", "getPoKemonDescription"]
+- !private ["7RxSwift13SchedulerTypeP", "init"]
+- !private ["7RxSwift13SchedulerTypeP", "instance"]
+- ["7RxSwift28SerialDispatchQueueSchedulerC", ""]
+- !private ["7RxSwift28SerialDispatchQueueSchedulerC", "instance"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- !private "7RxSwift32ConcurrentDispatchQueueSchedulerC"
+- !private "8Dispatch0A3QoSV"
+- !private "7RxSwift11DisposablesV"
+- !private "SQ"
+- "7Pokemon03GetA16DetailInteractorC"
+- !private "7RxSwift22ImmediateSchedulerTypeP"
+- "7Pokemon10InteractorP"
+- !private "7RxSwift13MainSchedulerC"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- "7Pokemon20ObservableInteractorC"
+- !private "7RxSwift14ObservableTypeP"
+- !private "7Pokemon0A14ListBLBehaviorP"
+- !private "7RxSwift13SchedulerTypeP"
+- "7RxSwift28SerialDispatchQueueSchedulerC"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/MarqueeLabel/MarqueeLabel.framework/Modules/MarqueeLabel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/NotificationBannerSwift/NotificationBannerSwift.framework/Modules/NotificationBannerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker-3.0-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/MarqueeLabel/MarqueeLabel.framework/Headers/MarqueeLabel-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/NotificationBannerSwift/NotificationBannerSwift.framework/Headers/NotificationBannerSwift-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPickerDelegate.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetDistancePicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetLocalePicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetDatePicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetMultipleStringPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetStringPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/AbstractActionSheetPicker.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/SWActionSheet.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/MarqueeLabel/MarqueeLabel.framework/Headers/MarqueeLabel-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/NotificationBannerSwift/NotificationBannerSwift.framework/Headers/NotificationBannerSwift-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/DistancePickerView.h"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/MarqueeLabel/MarqueeLabel.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/NotificationBannerSwift/NotificationBannerSwift.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a7dc2c3d30d55f0292ad625672ef6fd3"

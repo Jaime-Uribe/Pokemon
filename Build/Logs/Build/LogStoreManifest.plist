@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>2128C0CB-BB99-417D-88D7-9D50709E66FD</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2128C0CB-BB99-417D-88D7-9D50709E66FD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Pokemon project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pokemon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing workspace Pokemon with scheme Pokemon</string>
+			<key>timeStartedRecording</key>
+			<real>638588029.22738695</real>
+			<key>timeStoppedRecording</key>
+			<real>638588033.48941505</real>
+			<key>title</key>
+			<string>Testing workspace Pokemon with scheme Pokemon</string>
+			<key>uniqueIdentifier</key>
+			<string>2128C0CB-BB99-417D-88D7-9D50709E66FD</string>
+		</dict>
+		<key>349B8FA1-B697-440A-BE01-D18D69932A4E</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>349B8FA1-B697-440A-BE01-D18D69932A4E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Pokemon project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pokemon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing workspace Pokemon with scheme Pokemon</string>
+			<key>timeStartedRecording</key>
+			<real>638587976.17722797</real>
+			<key>timeStoppedRecording</key>
+			<real>638587983.53614998</real>
+			<key>title</key>
+			<string>Testing workspace Pokemon with scheme Pokemon</string>
+			<key>uniqueIdentifier</key>
+			<string>349B8FA1-B697-440A-BE01-D18D69932A4E</string>
+		</dict>
+		<key>5B704BEF-596F-47E1-B7A9-E053AB058B46</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5B704BEF-596F-47E1-B7A9-E053AB058B46.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Pokemon project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pokemon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace Pokemon with scheme Pokemon</string>
+			<key>timeStartedRecording</key>
+			<real>638588009.88652396</real>
+			<key>timeStoppedRecording</key>
+			<real>638588029.22661495</real>
+			<key>title</key>
+			<string>Building workspace Pokemon with scheme Pokemon</string>
+			<key>uniqueIdentifier</key>
+			<string>5B704BEF-596F-47E1-B7A9-E053AB058B46</string>
+		</dict>
+		<key>C444348D-992F-40A4-B9B4-552535541A3B</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C444348D-992F-40A4-B9B4-552535541A3B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Pokemon project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pokemon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning workspace Pokemon with scheme Pokemon</string>
+			<key>timeStartedRecording</key>
+			<real>638588009.33819401</real>
+			<key>timeStoppedRecording</key>
+			<real>638588009.88594306</real>
+			<key>title</key>
+			<string>Cleaning workspace Pokemon with scheme Pokemon</string>
+			<key>uniqueIdentifier</key>
+			<string>C444348D-992F-40A4-B9B4-552535541A3B</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

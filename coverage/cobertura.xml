@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.1754385964912281" branch-rate="0.2043010752688172" lines-covered="150" lines-valid="855" branches-covered="76" branches-valid="372" complexity="0.0" timestamp="1616888356" version="Slather 2.7.0">
+<coverage line-rate="0.1707602339181287" branch-rate="0.2016129032258064" lines-covered="146" lines-valid="855" branches-covered="75" branches-valid="372" complexity="0.0" timestamp="1616895302" version="Slather 2.7.0">
   <sources>
     <source>/Users/jaimeuribe/Documents/IOS/Pokemon</source>
   </sources>
@@ -21,7 +21,7 @@
         </class>
       </classes>
     </package>
-    <package name="Pokemon" line-rate="0.4090909090909091" branch-rate="0.4545454545454545" complexity="0.0">
+    <package name="Pokemon" line-rate="0.3181818181818182" branch-rate="0.3636363636363636" complexity="0.0">
       <classes>
         <class name="AppDelegate" filename="Pokemon/AppDelegate.swift" line-rate="0.2857142857142857" branch-rate="0.3333333333333333" complexity="0.0">
           <methods/>
@@ -54,7 +54,7 @@
             <line number="33" branch="false" hits="0"/>
           </lines>
         </class>
-        <class name="SceneDelegate" filename="Pokemon/SceneDelegate.swift" line-rate="0.4666666666666667" branch-rate="0.5000000000000000" complexity="0.0">
+        <class name="SceneDelegate" filename="Pokemon/SceneDelegate.swift" line-rate="0.3333333333333333" branch-rate="0.3750000000000000" complexity="0.0">
           <methods/>
           <lines>
             <line number="15" branch="true" hits="1" condition-coverage="100% (1/1)">
@@ -81,14 +81,14 @@
             <line number="25" branch="false" hits="0"/>
             <line number="26" branch="false" hits="0"/>
             <line number="27" branch="false" hits="0"/>
-            <line number="29" branch="true" hits="1" condition-coverage="100% (1/1)">
+            <line number="29" branch="true" hits="0" condition-coverage="0% (0/1)">
               <conditions>
-                <condition number="0" type="jump" coverage="100%"/>
+                <condition number="0" type="jump" coverage="0%"/>
               </conditions>
             </line>
-            <line number="30" branch="false" hits="1"/>
-            <line number="31" branch="false" hits="1"/>
-            <line number="32" branch="false" hits="1"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="0"/>
             <line number="34" branch="true" hits="0" condition-coverage="0% (0/1)">
               <conditions>
                 <condition number="0" type="jump" coverage="0%"/>

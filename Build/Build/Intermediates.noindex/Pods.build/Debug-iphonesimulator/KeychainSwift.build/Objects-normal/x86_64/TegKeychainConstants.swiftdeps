@@ -1,0 +1,95 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KeychainSwiftConstants"
+provides-nominal:
+- "13KeychainSwift0aB9ConstantsV"
+provides-member:
+- ["13KeychainSwift0aB9ConstantsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CFString"
+- "CastingPrecedence"
+- "KeychainSwiftConstants"
+- "String"
+- !private "kSecAttrAccessGroup"
+- !private "kSecAttrAccessible"
+- !private "kSecAttrAccount"
+- !private "kSecAttrSynchronizable"
+- !private "kSecClass"
+- !private "kSecMatchLimit"
+- !private "kSecMatchLimitAll"
+- !private "kSecReturnAttributes"
+- !private "kSecReturnData"
+- !private "kSecReturnPersistentRef"
+- !private "kSecValueData"
+- !private "toString"
+depends-member:
+- ["13KeychainSwift0aB9ConstantsV", "CFString"]
+- ["13KeychainSwift0aB9ConstantsV", "String"]
+- ["13KeychainSwift0aB9ConstantsV", "accessGroup"]
+- ["13KeychainSwift0aB9ConstantsV", "accessible"]
+- ["13KeychainSwift0aB9ConstantsV", "attrAccount"]
+- ["13KeychainSwift0aB9ConstantsV", "attrSynchronizable"]
+- ["13KeychainSwift0aB9ConstantsV", "init"]
+- !private ["13KeychainSwift0aB9ConstantsV", "kSecAttrAccessGroup"]
+- !private ["13KeychainSwift0aB9ConstantsV", "kSecAttrAccessible"]
+- !private ["13KeychainSwift0aB9ConstantsV", "kSecAttrAccount"]
+- !private ["13KeychainSwift0aB9ConstantsV", "kSecAttrSynchronizable"]
+- !private ["13KeychainSwift0aB9ConstantsV", "kSecClass"]
+- !private ["13KeychainSwift0aB9ConstantsV", "kSecMatchLimit"]
+- !private ["13KeychainSwift0aB9ConstantsV", "kSecMatchLimitAll"]
+- !private ["13KeychainSwift0aB9ConstantsV", "kSecReturnAttributes"]
+- !private ["13KeychainSwift0aB9ConstantsV", "kSecReturnData"]
+- !private ["13KeychainSwift0aB9ConstantsV", "kSecReturnPersistentRef"]
+- !private ["13KeychainSwift0aB9ConstantsV", "kSecValueData"]
+- ["13KeychainSwift0aB9ConstantsV", "klass"]
+- ["13KeychainSwift0aB9ConstantsV", "matchLimit"]
+- ["13KeychainSwift0aB9ConstantsV", "returnAttributes"]
+- ["13KeychainSwift0aB9ConstantsV", "returnData"]
+- ["13KeychainSwift0aB9ConstantsV", "returnReference"]
+- ["13KeychainSwift0aB9ConstantsV", "secMatchLimitAll"]
+- ["13KeychainSwift0aB9ConstantsV", "toString"]
+- ["13KeychainSwift0aB9ConstantsV", "valueData"]
+- ["So8NSCodingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+depends-nominal:
+- "13KeychainSwift0aB9ConstantsV"
+- "So8NSCodingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Pods/Target Support Files/KeychainSwift/KeychainSwift-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/jaimeuribe/Documents/IOS/Pokemon/Build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/KeychainSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f75ee9486c1e5aaba292a71eb4657602"
