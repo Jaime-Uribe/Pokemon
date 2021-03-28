@@ -19,17 +19,4 @@ node {
         // Publish test restults.
         step([$class: 'JUnitResultArchiver', allowEmptyResults: true, testResults: 'coverage/cobertura.xml'])
     }
-
-    stage('Analytics') {
-
-        parallel Coverage: {
-            // Generate Code Coverage report
-            sh '/usr/local/bin/slather coverage --jenkins --cobertura-xml --scheme Pokemon Pokemon.xcodeproj/'
-
-            // Publish coverage results
-            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'html', reportFiles: 'index.html', reportName: 'Coverage Report'])
-
-
-        }, failFast: true|false
-    }
 }
